@@ -1,0 +1,3347 @@
+[Geom4] 读取 Δgeom_4, 形状=(9762, 4)
+[ΔE]    读取 deltaE_mlp, 形状=(9762,)
+IS_embeddings 规模: N=9762, D=64
+[Coarse7 分组统计]
+  coarse7 0: num_samples = 1026
+  coarse7 1: num_samples = 1026
+  coarse7 2: num_samples = 3360
+  coarse7 3: num_samples = 3360
+  coarse7 4: num_samples = 828
+  coarse7 5: num_samples = 36
+  coarse7 6: num_samples = 126
+[Reaction3 分组统计]
+  reaction3 0: num_samples = 5214
+  reaction3 1: num_samples = 4386
+  reaction3 2: num_samples = 162
+[geom4+ΔE 距离分析]
+  样本数: 9762 子集: 8000 pair 数: 200000
+  平均: 2.45519635508789 中位数: 2.5247925920228473
+  5%: 0.5545633421357483  10%: 0.8720072602376451  20%: 1.32889274407569 95%: 4.323274475862035
+  推荐 geom_sigma ≈ 10.0% 分位数: 0.8720072602376451
+[Stage2 & geom-only] 使用自动推荐 geom_sigma = 0.8720
+
+=========== Stage1: reaction3 + coarse7 SupCon ===========
+
+[Stage1 epoch 1/100] M = 9437
+[Stage1 epoch 1/100] mean_loss=7.0542
+
+[Stage1 epoch 2/100] M = 9460
+[Stage1 epoch 2/100] mean_loss=6.7568
+
+[Stage1 epoch 3/100] M = 9427
+[Stage1 epoch 3/100] mean_loss=6.3957
+
+[Stage1 epoch 4/100] M = 9413
+[Stage1 epoch 4/100] mean_loss=6.1723
+
+[Stage1 epoch 5/100] M = 9421
+[Stage1 epoch 5/100] mean_loss=6.0816
+
+[Stage1 epoch 6/100] M = 9431
+[Stage1 epoch 6/100] mean_loss=6.0303
+
+[Stage1 epoch 7/100] M = 9422
+[Stage1 epoch 7/100] mean_loss=5.9945
+
+[Stage1 epoch 8/100] M = 9406
+[Stage1 epoch 8/100] mean_loss=5.9742
+
+[Stage1 epoch 9/100] M = 9419
+[Stage1 epoch 9/100] mean_loss=5.9569
+
+[Stage1 epoch 10/100] M = 9441
+[Stage1 epoch 10/100] mean_loss=5.9452
+
+[Stage1 epoch 11/100] M = 9436
+[Stage1 epoch 11/100] mean_loss=5.9371
+
+[Stage1 epoch 12/100] M = 9402
+[Stage1 epoch 12/100] mean_loss=5.9208
+
+[Stage1 epoch 13/100] M = 9415
+[Stage1 epoch 13/100] mean_loss=5.9150
+
+[Stage1 epoch 14/100] M = 9393
+[Stage1 epoch 14/100] mean_loss=5.9017
+
+[Stage1 epoch 15/100] M = 9434
+[Stage1 epoch 15/100] mean_loss=5.9079
+
+[Stage1 epoch 16/100] M = 9404
+[Stage1 epoch 16/100] mean_loss=5.8916
+
+[Stage1 epoch 17/100] M = 9420
+[Stage1 epoch 17/100] mean_loss=5.8923
+
+[Stage1 epoch 18/100] M = 9428
+[Stage1 epoch 18/100] mean_loss=5.8931
+
+[Stage1 epoch 19/100] M = 9413
+[Stage1 epoch 19/100] mean_loss=5.8860
+
+[Stage1 epoch 20/100] M = 9444
+[Stage1 epoch 20/100] mean_loss=5.8899
+
+[Stage1 epoch 21/100] M = 9432
+[Stage1 epoch 21/100] mean_loss=5.8845
+
+[Stage1 epoch 22/100] M = 9439
+[Stage1 epoch 22/100] mean_loss=5.8800
+
+[Stage1 epoch 23/100] M = 9423
+[Stage1 epoch 23/100] mean_loss=5.8779
+
+[Stage1 epoch 24/100] M = 9436
+[Stage1 epoch 24/100] mean_loss=5.8789
+
+[Stage1 epoch 25/100] M = 9411
+[Stage1 epoch 25/100] mean_loss=5.8674
+
+[Stage1 epoch 26/100] M = 9422
+[Stage1 epoch 26/100] mean_loss=5.8698
+
+[Stage1 epoch 27/100] M = 9423
+[Stage1 epoch 27/100] mean_loss=5.8681
+
+[Stage1 epoch 28/100] M = 9432
+[Stage1 epoch 28/100] mean_loss=5.8690
+
+[Stage1 epoch 29/100] M = 9435
+[Stage1 epoch 29/100] mean_loss=5.8695
+
+[Stage1 epoch 30/100] M = 9403
+[Stage1 epoch 30/100] mean_loss=5.8582
+
+[Stage1 epoch 31/100] M = 9427
+[Stage1 epoch 31/100] mean_loss=5.8648
+
+[Stage1 epoch 32/100] M = 9444
+[Stage1 epoch 32/100] mean_loss=5.8666
+
+[Stage1 epoch 33/100] M = 9420
+[Stage1 epoch 33/100] mean_loss=5.8612
+
+[Stage1 epoch 34/100] M = 9406
+[Stage1 epoch 34/100] mean_loss=5.8547
+
+[Stage1 epoch 35/100] M = 9407
+[Stage1 epoch 35/100] mean_loss=5.8540
+
+[Stage1 epoch 36/100] M = 9437
+[Stage1 epoch 36/100] mean_loss=5.8615
+
+[Stage1 epoch 37/100] M = 9449
+[Stage1 epoch 37/100] mean_loss=5.8612
+
+[Stage1 epoch 38/100] M = 9438
+[Stage1 epoch 38/100] mean_loss=5.8622
+
+[Stage1 epoch 39/100] M = 9392
+[Stage1 epoch 39/100] mean_loss=5.8444
+
+[Stage1 epoch 40/100] M = 9423
+[Stage1 epoch 40/100] mean_loss=5.8537
+
+[Stage1 epoch 41/100] M = 9420
+[Stage1 epoch 41/100] mean_loss=5.8537
+
+[Stage1 epoch 42/100] M = 9430
+[Stage1 epoch 42/100] mean_loss=5.8541
+
+[Stage1 epoch 43/100] M = 9427
+[Stage1 epoch 43/100] mean_loss=5.8527
+
+[Stage1 epoch 44/100] M = 9421
+[Stage1 epoch 44/100] mean_loss=5.8518
+
+[Stage1 epoch 45/100] M = 9402
+[Stage1 epoch 45/100] mean_loss=5.8500
+
+[Stage1 epoch 46/100] M = 9414
+[Stage1 epoch 46/100] mean_loss=5.8489
+
+[Stage1 epoch 47/100] M = 9414
+[Stage1 epoch 47/100] mean_loss=5.8480
+
+[Stage1 epoch 48/100] M = 9427
+[Stage1 epoch 48/100] mean_loss=5.8505
+
+[Stage1 epoch 49/100] M = 9435
+[Stage1 epoch 49/100] mean_loss=5.8538
+
+[Stage1 epoch 50/100] M = 9423
+[Stage1 epoch 50/100] mean_loss=5.8505
+
+[Stage1 epoch 51/100] M = 9435
+[Stage1 epoch 51/100] mean_loss=5.8496
+
+[Stage1 epoch 52/100] M = 9408
+[Stage1 epoch 52/100] mean_loss=5.8436
+
+[Stage1 epoch 53/100] M = 9427
+[Stage1 epoch 53/100] mean_loss=5.8470
+
+[Stage1 epoch 54/100] M = 9423
+[Stage1 epoch 54/100] mean_loss=5.8481
+
+[Stage1 epoch 55/100] M = 9428
+[Stage1 epoch 55/100] mean_loss=5.8465
+
+[Stage1 epoch 56/100] M = 9426
+[Stage1 epoch 56/100] mean_loss=5.8454
+
+[Stage1 epoch 57/100] M = 9424
+[Stage1 epoch 57/100] mean_loss=5.8473
+
+[Stage1 epoch 58/100] M = 9394
+[Stage1 epoch 58/100] mean_loss=5.8342
+
+[Stage1 epoch 59/100] M = 9425
+[Stage1 epoch 59/100] mean_loss=5.8458
+
+[Stage1 epoch 60/100] M = 9413
+[Stage1 epoch 60/100] mean_loss=5.8460
+
+[Stage1 epoch 61/100] M = 9418
+[Stage1 epoch 61/100] mean_loss=5.8433
+
+[Stage1 epoch 62/100] M = 9415
+[Stage1 epoch 62/100] mean_loss=5.8406
+
+[Stage1 epoch 63/100] M = 9442
+[Stage1 epoch 63/100] mean_loss=5.8462
+
+[Stage1 epoch 64/100] M = 9469
+[Stage1 epoch 64/100] mean_loss=5.8530
+
+[Stage1 epoch 65/100] M = 9423
+[Stage1 epoch 65/100] mean_loss=5.8461
+
+[Stage1 epoch 66/100] M = 9451
+[Stage1 epoch 66/100] mean_loss=5.8454
+
+[Stage1 epoch 67/100] M = 9441
+[Stage1 epoch 67/100] mean_loss=5.8469
+
+[Stage1 epoch 68/100] M = 9428
+[Stage1 epoch 68/100] mean_loss=5.8456
+
+[Stage1 epoch 69/100] M = 9443
+[Stage1 epoch 69/100] mean_loss=5.8435
+
+[Stage1 epoch 70/100] M = 9441
+[Stage1 epoch 70/100] mean_loss=5.8443
+
+[Stage1 epoch 71/100] M = 9429
+[Stage1 epoch 71/100] mean_loss=5.8454
+
+[Stage1 epoch 72/100] M = 9405
+[Stage1 epoch 72/100] mean_loss=5.8363
+
+[Stage1 epoch 73/100] M = 9400
+[Stage1 epoch 73/100] mean_loss=5.8331
+
+[Stage1 epoch 74/100] M = 9438
+[Stage1 epoch 74/100] mean_loss=5.8426
+
+[Stage1 epoch 75/100] M = 9443
+[Stage1 epoch 75/100] mean_loss=5.8456
+
+[Stage1 epoch 76/100] M = 9410
+[Stage1 epoch 76/100] mean_loss=5.8399
+
+[Stage1 epoch 77/100] M = 9425
+[Stage1 epoch 77/100] mean_loss=5.8414
+
+[Stage1 epoch 78/100] M = 9425
+[Stage1 epoch 78/100] mean_loss=5.8408
+
+[Stage1 epoch 79/100] M = 9384
+[Stage1 epoch 79/100] mean_loss=5.8254
+
+[Stage1 epoch 80/100] M = 9427
+[Stage1 epoch 80/100] mean_loss=5.8397
+
+[Stage1 epoch 81/100] M = 9443
+[Stage1 epoch 81/100] mean_loss=5.8417
+
+[Stage1 epoch 82/100] M = 9419
+[Stage1 epoch 82/100] mean_loss=5.8379
+
+[Stage1 epoch 83/100] M = 9415
+[Stage1 epoch 83/100] mean_loss=5.8410
+
+[Stage1 epoch 84/100] M = 9422
+[Stage1 epoch 84/100] mean_loss=5.8398
+
+[Stage1 epoch 85/100] M = 9453
+[Stage1 epoch 85/100] mean_loss=5.8445
+
+[Stage1 epoch 86/100] M = 9445
+[Stage1 epoch 86/100] mean_loss=5.8448
+
+[Stage1 epoch 87/100] M = 9402
+[Stage1 epoch 87/100] mean_loss=5.8297
+
+[Stage1 epoch 88/100] M = 9400
+[Stage1 epoch 88/100] mean_loss=5.8330
+
+[Stage1 epoch 89/100] M = 9427
+[Stage1 epoch 89/100] mean_loss=5.8385
+
+[Stage1 epoch 90/100] M = 9425
+[Stage1 epoch 90/100] mean_loss=5.8384
+
+[Stage1 epoch 91/100] M = 9443
+[Stage1 epoch 91/100] mean_loss=5.8421
+
+[Stage1 epoch 92/100] M = 9428
+[Stage1 epoch 92/100] mean_loss=5.8412
+
+[Stage1 epoch 93/100] M = 9428
+[Stage1 epoch 93/100] mean_loss=5.8393
+
+[Stage1 epoch 94/100] M = 9415
+[Stage1 epoch 94/100] mean_loss=5.8391
+
+[Stage1 epoch 95/100] M = 9446
+[Stage1 epoch 95/100] mean_loss=5.8472
+
+[Stage1 epoch 96/100] M = 9434
+[Stage1 epoch 96/100] mean_loss=5.8411
+
+[Stage1 epoch 97/100] M = 9438
+[Stage1 epoch 97/100] mean_loss=5.8387
+
+[Stage1 epoch 98/100] M = 9417
+[Stage1 epoch 98/100] mean_loss=5.8375
+
+[Stage1 epoch 99/100] M = 9401
+[Stage1 epoch 99/100] mean_loss=5.8304
+
+[Stage1 epoch 100/100] M = 9460
+[Stage1 epoch 100/100] mean_loss=5.8426
+[Save] state_dict -> reaction_encoder_stage1_multilevel.pth
+[Save] TorchScript -> reaction_encoder_stage1_multilevel.pt
+
+=========== Stage2: multilevel (rxn+coarse7) + geom4+ΔE ===========
+
+[Stage2 epoch 1/500] M = 28000
+[Stage2 epoch 1/500] mean_loss=4.2649
+
+[Stage2 epoch 2/500] M = 28000
+[Stage2 epoch 2/500] mean_loss=4.2328
+
+[Stage2 epoch 3/500] M = 28000
+[Stage2 epoch 3/500] mean_loss=4.2232
+
+[Stage2 epoch 4/500] M = 28000
+[Stage2 epoch 4/500] mean_loss=4.2222
+
+[Stage2 epoch 5/500] M = 28000
+[Stage2 epoch 5/500] mean_loss=4.2178
+
+[Stage2 epoch 6/500] M = 28000
+[Stage2 epoch 6/500] mean_loss=4.2137
+
+[Stage2 epoch 7/500] M = 28000
+[Stage2 epoch 7/500] mean_loss=4.2125
+
+[Stage2 epoch 8/500] M = 28000
+[Stage2 epoch 8/500] mean_loss=4.2102
+
+[Stage2 epoch 9/500] M = 28000
+[Stage2 epoch 9/500] mean_loss=4.2035
+
+[Stage2 epoch 10/500] M = 28000
+[Stage2 epoch 10/500] mean_loss=4.1967
+
+[Stage2 epoch 11/500] M = 28000
+[Stage2 epoch 11/500] mean_loss=4.1976
+
+[Stage2 epoch 12/500] M = 28000
+[Stage2 epoch 12/500] mean_loss=4.1943
+
+[Stage2 epoch 13/500] M = 28000
+[Stage2 epoch 13/500] mean_loss=4.1898
+
+[Stage2 epoch 14/500] M = 28000
+[Stage2 epoch 14/500] mean_loss=4.1887
+
+[Stage2 epoch 15/500] M = 28000
+[Stage2 epoch 15/500] mean_loss=4.1816
+
+[Stage2 epoch 16/500] M = 28000
+[Stage2 epoch 16/500] mean_loss=4.1819
+
+[Stage2 epoch 17/500] M = 28000
+[Stage2 epoch 17/500] mean_loss=4.1799
+
+[Stage2 epoch 18/500] M = 28000
+[Stage2 epoch 18/500] mean_loss=4.1808
+
+[Stage2 epoch 19/500] M = 28000
+[Stage2 epoch 19/500] mean_loss=4.1812
+
+[Stage2 epoch 20/500] M = 28000
+[Stage2 epoch 20/500] mean_loss=4.1776
+
+[Stage2 epoch 21/500] M = 28000
+[Stage2 epoch 21/500] mean_loss=4.1789
+
+[Stage2 epoch 22/500] M = 28000
+[Stage2 epoch 22/500] mean_loss=4.1774
+
+[Stage2 epoch 23/500] M = 28000
+[Stage2 epoch 23/500] mean_loss=4.1729
+
+[Stage2 epoch 24/500] M = 28000
+[Stage2 epoch 24/500] mean_loss=4.1678
+
+[Stage2 epoch 25/500] M = 28000
+[Stage2 epoch 25/500] mean_loss=4.1671
+
+[Stage2 epoch 26/500] M = 28000
+[Stage2 epoch 26/500] mean_loss=4.1709
+
+[Stage2 epoch 27/500] M = 28000
+[Stage2 epoch 27/500] mean_loss=4.1748
+
+[Stage2 epoch 28/500] M = 28000
+[Stage2 epoch 28/500] mean_loss=4.1727
+
+[Stage2 epoch 29/500] M = 28000
+[Stage2 epoch 29/500] mean_loss=4.1654
+
+[Stage2 epoch 30/500] M = 28000
+[Stage2 epoch 30/500] mean_loss=4.1728
+
+[Stage2 epoch 31/500] M = 28000
+[Stage2 epoch 31/500] mean_loss=4.1666
+
+[Stage2 epoch 32/500] M = 28000
+[Stage2 epoch 32/500] mean_loss=4.1627
+
+[Stage2 epoch 33/500] M = 28000
+[Stage2 epoch 33/500] mean_loss=4.1652
+
+[Stage2 epoch 34/500] M = 28000
+[Stage2 epoch 34/500] mean_loss=4.1684
+
+[Stage2 epoch 35/500] M = 28000
+[Stage2 epoch 35/500] mean_loss=4.1709
+
+[Stage2 epoch 36/500] M = 28000
+[Stage2 epoch 36/500] mean_loss=4.1635
+
+[Stage2 epoch 37/500] M = 28000
+[Stage2 epoch 37/500] mean_loss=4.1630
+
+[Stage2 epoch 38/500] M = 28000
+[Stage2 epoch 38/500] mean_loss=4.1657
+
+[Stage2 epoch 39/500] M = 28000
+[Stage2 epoch 39/500] mean_loss=4.1627
+
+[Stage2 epoch 40/500] M = 28000
+[Stage2 epoch 40/500] mean_loss=4.1642
+
+[Stage2 epoch 41/500] M = 28000
+[Stage2 epoch 41/500] mean_loss=4.1682
+
+[Stage2 epoch 42/500] M = 28000
+[Stage2 epoch 42/500] mean_loss=4.1602
+
+[Stage2 epoch 43/500] M = 28000
+[Stage2 epoch 43/500] mean_loss=4.1612
+
+[Stage2 epoch 44/500] M = 28000
+[Stage2 epoch 44/500] mean_loss=4.1581
+
+[Stage2 epoch 45/500] M = 28000
+[Stage2 epoch 45/500] mean_loss=4.1604
+
+[Stage2 epoch 46/500] M = 28000
+[Stage2 epoch 46/500] mean_loss=4.1579
+
+[Stage2 epoch 47/500] M = 28000
+[Stage2 epoch 47/500] mean_loss=4.1671
+
+[Stage2 epoch 48/500] M = 28000
+[Stage2 epoch 48/500] mean_loss=4.1588
+
+[Stage2 epoch 49/500] M = 28000
+[Stage2 epoch 49/500] mean_loss=4.1604
+
+[Stage2 epoch 50/500] M = 28000
+[Stage2 epoch 50/500] mean_loss=4.1525
+
+[Stage2 epoch 51/500] M = 28000
+[Stage2 epoch 51/500] mean_loss=4.1580
+
+[Stage2 epoch 52/500] M = 28000
+[Stage2 epoch 52/500] mean_loss=4.1502
+
+[Stage2 epoch 53/500] M = 28000
+[Stage2 epoch 53/500] mean_loss=4.1547
+
+[Stage2 epoch 54/500] M = 28000
+[Stage2 epoch 54/500] mean_loss=4.1575
+
+[Stage2 epoch 55/500] M = 28000
+[Stage2 epoch 55/500] mean_loss=4.1542
+
+[Stage2 epoch 56/500] M = 28000
+[Stage2 epoch 56/500] mean_loss=4.1559
+
+[Stage2 epoch 57/500] M = 28000
+[Stage2 epoch 57/500] mean_loss=4.1585
+
+[Stage2 epoch 58/500] M = 28000
+[Stage2 epoch 58/500] mean_loss=4.1558
+
+[Stage2 epoch 59/500] M = 28000
+[Stage2 epoch 59/500] mean_loss=4.1553
+
+[Stage2 epoch 60/500] M = 28000
+[Stage2 epoch 60/500] mean_loss=4.1529
+
+[Stage2 epoch 61/500] M = 28000
+[Stage2 epoch 61/500] mean_loss=4.1485
+
+[Stage2 epoch 62/500] M = 28000
+[Stage2 epoch 62/500] mean_loss=4.1468
+
+[Stage2 epoch 63/500] M = 28000
+[Stage2 epoch 63/500] mean_loss=4.1501
+
+[Stage2 epoch 64/500] M = 28000
+[Stage2 epoch 64/500] mean_loss=4.1522
+
+[Stage2 epoch 65/500] M = 28000
+[Stage2 epoch 65/500] mean_loss=4.1473
+
+[Stage2 epoch 66/500] M = 28000
+[Stage2 epoch 66/500] mean_loss=4.1453
+
+[Stage2 epoch 67/500] M = 28000
+[Stage2 epoch 67/500] mean_loss=4.1513
+
+[Stage2 epoch 68/500] M = 28000
+[Stage2 epoch 68/500] mean_loss=4.1552
+
+[Stage2 epoch 69/500] M = 28000
+[Stage2 epoch 69/500] mean_loss=4.1450
+
+[Stage2 epoch 70/500] M = 28000
+[Stage2 epoch 70/500] mean_loss=4.1470
+
+[Stage2 epoch 71/500] M = 28000
+[Stage2 epoch 71/500] mean_loss=4.1473
+
+[Stage2 epoch 72/500] M = 28000
+[Stage2 epoch 72/500] mean_loss=4.1481
+
+[Stage2 epoch 73/500] M = 28000
+[Stage2 epoch 73/500] mean_loss=4.1417
+
+[Stage2 epoch 74/500] M = 28000
+[Stage2 epoch 74/500] mean_loss=4.1470
+
+[Stage2 epoch 75/500] M = 28000
+[Stage2 epoch 75/500] mean_loss=4.1503
+
+[Stage2 epoch 76/500] M = 28000
+[Stage2 epoch 76/500] mean_loss=4.1454
+
+[Stage2 epoch 77/500] M = 28000
+[Stage2 epoch 77/500] mean_loss=4.1509
+
+[Stage2 epoch 78/500] M = 28000
+[Stage2 epoch 78/500] mean_loss=4.1467
+
+[Stage2 epoch 79/500] M = 28000
+[Stage2 epoch 79/500] mean_loss=4.1500
+
+[Stage2 epoch 80/500] M = 28000
+[Stage2 epoch 80/500] mean_loss=4.1452
+
+[Stage2 epoch 81/500] M = 28000
+[Stage2 epoch 81/500] mean_loss=4.1472
+
+[Stage2 epoch 82/500] M = 28000
+[Stage2 epoch 82/500] mean_loss=4.1418
+
+[Stage2 epoch 83/500] M = 28000
+[Stage2 epoch 83/500] mean_loss=4.1374
+
+[Stage2 epoch 84/500] M = 28000
+[Stage2 epoch 84/500] mean_loss=4.1429
+
+[Stage2 epoch 85/500] M = 28000
+[Stage2 epoch 85/500] mean_loss=4.1453
+
+[Stage2 epoch 86/500] M = 28000
+[Stage2 epoch 86/500] mean_loss=4.1445
+
+[Stage2 epoch 87/500] M = 28000
+[Stage2 epoch 87/500] mean_loss=4.1448
+
+[Stage2 epoch 88/500] M = 28000
+[Stage2 epoch 88/500] mean_loss=4.1428
+
+[Stage2 epoch 89/500] M = 28000
+[Stage2 epoch 89/500] mean_loss=4.1430
+
+[Stage2 epoch 90/500] M = 28000
+[Stage2 epoch 90/500] mean_loss=4.1367
+
+[Stage2 epoch 91/500] M = 28000
+[Stage2 epoch 91/500] mean_loss=4.1402
+
+[Stage2 epoch 92/500] M = 28000
+[Stage2 epoch 92/500] mean_loss=4.1396
+
+[Stage2 epoch 93/500] M = 28000
+[Stage2 epoch 93/500] mean_loss=4.1351
+
+[Stage2 epoch 94/500] M = 28000
+[Stage2 epoch 94/500] mean_loss=4.1377
+
+[Stage2 epoch 95/500] M = 28000
+[Stage2 epoch 95/500] mean_loss=4.1372
+
+[Stage2 epoch 96/500] M = 28000
+[Stage2 epoch 96/500] mean_loss=4.1368
+
+[Stage2 epoch 97/500] M = 28000
+[Stage2 epoch 97/500] mean_loss=4.1341
+
+[Stage2 epoch 98/500] M = 28000
+[Stage2 epoch 98/500] mean_loss=4.1341
+
+[Stage2 epoch 99/500] M = 28000
+[Stage2 epoch 99/500] mean_loss=4.1388
+
+[Stage2 epoch 100/500] M = 28000
+[Stage2 epoch 100/500] mean_loss=4.1389
+
+[Stage2 epoch 101/500] M = 28000
+[Stage2 epoch 101/500] mean_loss=4.1336
+
+[Stage2 epoch 102/500] M = 28000
+[Stage2 epoch 102/500] mean_loss=4.1378
+
+[Stage2 epoch 103/500] M = 28000
+[Stage2 epoch 103/500] mean_loss=4.1334
+
+[Stage2 epoch 104/500] M = 28000
+[Stage2 epoch 104/500] mean_loss=4.1360
+
+[Stage2 epoch 105/500] M = 28000
+[Stage2 epoch 105/500] mean_loss=4.1372
+
+[Stage2 epoch 106/500] M = 28000
+[Stage2 epoch 106/500] mean_loss=4.1312
+
+[Stage2 epoch 107/500] M = 28000
+[Stage2 epoch 107/500] mean_loss=4.1376
+
+[Stage2 epoch 108/500] M = 28000
+[Stage2 epoch 108/500] mean_loss=4.1328
+
+[Stage2 epoch 109/500] M = 28000
+[Stage2 epoch 109/500] mean_loss=4.1375
+
+[Stage2 epoch 110/500] M = 28000
+[Stage2 epoch 110/500] mean_loss=4.1283
+
+[Stage2 epoch 111/500] M = 28000
+[Stage2 epoch 111/500] mean_loss=4.1349
+
+[Stage2 epoch 112/500] M = 28000
+[Stage2 epoch 112/500] mean_loss=4.1294
+
+[Stage2 epoch 113/500] M = 28000
+[Stage2 epoch 113/500] mean_loss=4.1374
+
+[Stage2 epoch 114/500] M = 28000
+[Stage2 epoch 114/500] mean_loss=4.1321
+
+[Stage2 epoch 115/500] M = 28000
+[Stage2 epoch 115/500] mean_loss=4.1370
+
+[Stage2 epoch 116/500] M = 28000
+[Stage2 epoch 116/500] mean_loss=4.1276
+
+[Stage2 epoch 117/500] M = 28000
+[Stage2 epoch 117/500] mean_loss=4.1247
+
+[Stage2 epoch 118/500] M = 28000
+[Stage2 epoch 118/500] mean_loss=4.1330
+
+[Stage2 epoch 119/500] M = 28000
+[Stage2 epoch 119/500] mean_loss=4.1295
+
+[Stage2 epoch 120/500] M = 28000
+[Stage2 epoch 120/500] mean_loss=4.1339
+
+[Stage2 epoch 121/500] M = 28000
+[Stage2 epoch 121/500] mean_loss=4.1345
+
+[Stage2 epoch 122/500] M = 28000
+[Stage2 epoch 122/500] mean_loss=4.1333
+
+[Stage2 epoch 123/500] M = 28000
+[Stage2 epoch 123/500] mean_loss=4.1302
+
+[Stage2 epoch 124/500] M = 28000
+[Stage2 epoch 124/500] mean_loss=4.1303
+
+[Stage2 epoch 125/500] M = 28000
+[Stage2 epoch 125/500] mean_loss=4.1244
+
+[Stage2 epoch 126/500] M = 28000
+[Stage2 epoch 126/500] mean_loss=4.1244
+
+[Stage2 epoch 127/500] M = 28000
+[Stage2 epoch 127/500] mean_loss=4.1260
+
+[Stage2 epoch 128/500] M = 28000
+[Stage2 epoch 128/500] mean_loss=4.1306
+
+[Stage2 epoch 129/500] M = 28000
+[Stage2 epoch 129/500] mean_loss=4.1255
+
+[Stage2 epoch 130/500] M = 28000
+[Stage2 epoch 130/500] mean_loss=4.1254
+
+[Stage2 epoch 131/500] M = 28000
+[Stage2 epoch 131/500] mean_loss=4.1312
+
+[Stage2 epoch 132/500] M = 28000
+[Stage2 epoch 132/500] mean_loss=4.1249
+
+[Stage2 epoch 133/500] M = 28000
+[Stage2 epoch 133/500] mean_loss=4.1246
+
+[Stage2 epoch 134/500] M = 28000
+[Stage2 epoch 134/500] mean_loss=4.1257
+
+[Stage2 epoch 135/500] M = 28000
+[Stage2 epoch 135/500] mean_loss=4.1236
+
+[Stage2 epoch 136/500] M = 28000
+[Stage2 epoch 136/500] mean_loss=4.1255
+
+[Stage2 epoch 137/500] M = 28000
+[Stage2 epoch 137/500] mean_loss=4.1255
+
+[Stage2 epoch 138/500] M = 28000
+[Stage2 epoch 138/500] mean_loss=4.1253
+
+[Stage2 epoch 139/500] M = 28000
+[Stage2 epoch 139/500] mean_loss=4.1230
+
+[Stage2 epoch 140/500] M = 28000
+[Stage2 epoch 140/500] mean_loss=4.1265
+
+[Stage2 epoch 141/500] M = 28000
+[Stage2 epoch 141/500] mean_loss=4.1268
+
+[Stage2 epoch 142/500] M = 28000
+[Stage2 epoch 142/500] mean_loss=4.1271
+
+[Stage2 epoch 143/500] M = 28000
+[Stage2 epoch 143/500] mean_loss=4.1253
+
+[Stage2 epoch 144/500] M = 28000
+[Stage2 epoch 144/500] mean_loss=4.1248
+
+[Stage2 epoch 145/500] M = 28000
+[Stage2 epoch 145/500] mean_loss=4.1244
+
+[Stage2 epoch 146/500] M = 28000
+[Stage2 epoch 146/500] mean_loss=4.1207
+
+[Stage2 epoch 147/500] M = 28000
+[Stage2 epoch 147/500] mean_loss=4.1206
+
+[Stage2 epoch 148/500] M = 28000
+[Stage2 epoch 148/500] mean_loss=4.1252
+
+[Stage2 epoch 149/500] M = 28000
+[Stage2 epoch 149/500] mean_loss=4.1218
+
+[Stage2 epoch 150/500] M = 28000
+[Stage2 epoch 150/500] mean_loss=4.1247
+
+[Stage2 epoch 151/500] M = 28000
+[Stage2 epoch 151/500] mean_loss=4.1228
+
+[Stage2 epoch 152/500] M = 28000
+[Stage2 epoch 152/500] mean_loss=4.1226
+
+[Stage2 epoch 153/500] M = 28000
+[Stage2 epoch 153/500] mean_loss=4.1223
+
+[Stage2 epoch 154/500] M = 28000
+[Stage2 epoch 154/500] mean_loss=4.1222
+
+[Stage2 epoch 155/500] M = 28000
+[Stage2 epoch 155/500] mean_loss=4.1291
+
+[Stage2 epoch 156/500] M = 28000
+[Stage2 epoch 156/500] mean_loss=4.1187
+
+[Stage2 epoch 157/500] M = 28000
+[Stage2 epoch 157/500] mean_loss=4.1197
+
+[Stage2 epoch 158/500] M = 28000
+[Stage2 epoch 158/500] mean_loss=4.1140
+
+[Stage2 epoch 159/500] M = 28000
+[Stage2 epoch 159/500] mean_loss=4.1224
+
+[Stage2 epoch 160/500] M = 28000
+[Stage2 epoch 160/500] mean_loss=4.1219
+
+[Stage2 epoch 161/500] M = 28000
+[Stage2 epoch 161/500] mean_loss=4.1235
+
+[Stage2 epoch 162/500] M = 28000
+[Stage2 epoch 162/500] mean_loss=4.1180
+
+[Stage2 epoch 163/500] M = 28000
+[Stage2 epoch 163/500] mean_loss=4.1200
+
+[Stage2 epoch 164/500] M = 28000
+[Stage2 epoch 164/500] mean_loss=4.1159
+
+[Stage2 epoch 165/500] M = 28000
+[Stage2 epoch 165/500] mean_loss=4.1188
+
+[Stage2 epoch 166/500] M = 28000
+[Stage2 epoch 166/500] mean_loss=4.1218
+
+[Stage2 epoch 167/500] M = 28000
+[Stage2 epoch 167/500] mean_loss=4.1248
+
+[Stage2 epoch 168/500] M = 28000
+[Stage2 epoch 168/500] mean_loss=4.1204
+
+[Stage2 epoch 169/500] M = 28000
+[Stage2 epoch 169/500] mean_loss=4.1158
+
+[Stage2 epoch 170/500] M = 28000
+[Stage2 epoch 170/500] mean_loss=4.1205
+
+[Stage2 epoch 171/500] M = 28000
+[Stage2 epoch 171/500] mean_loss=4.1199
+
+[Stage2 epoch 172/500] M = 28000
+[Stage2 epoch 172/500] mean_loss=4.1169
+
+[Stage2 epoch 173/500] M = 28000
+[Stage2 epoch 173/500] mean_loss=4.1199
+
+[Stage2 epoch 174/500] M = 28000
+[Stage2 epoch 174/500] mean_loss=4.1186
+
+[Stage2 epoch 175/500] M = 28000
+[Stage2 epoch 175/500] mean_loss=4.1194
+
+[Stage2 epoch 176/500] M = 28000
+[Stage2 epoch 176/500] mean_loss=4.1163
+
+[Stage2 epoch 177/500] M = 28000
+[Stage2 epoch 177/500] mean_loss=4.1137
+
+[Stage2 epoch 178/500] M = 28000
+[Stage2 epoch 178/500] mean_loss=4.1174
+
+[Stage2 epoch 179/500] M = 28000
+[Stage2 epoch 179/500] mean_loss=4.1189
+
+[Stage2 epoch 180/500] M = 28000
+[Stage2 epoch 180/500] mean_loss=4.1174
+
+[Stage2 epoch 181/500] M = 28000
+[Stage2 epoch 181/500] mean_loss=4.1196
+
+[Stage2 epoch 182/500] M = 28000
+[Stage2 epoch 182/500] mean_loss=4.1168
+
+[Stage2 epoch 183/500] M = 28000
+[Stage2 epoch 183/500] mean_loss=4.1156
+
+[Stage2 epoch 184/500] M = 28000
+[Stage2 epoch 184/500] mean_loss=4.1177
+
+[Stage2 epoch 185/500] M = 28000
+[Stage2 epoch 185/500] mean_loss=4.1223
+
+[Stage2 epoch 186/500] M = 28000
+[Stage2 epoch 186/500] mean_loss=4.1224
+
+[Stage2 epoch 187/500] M = 28000
+[Stage2 epoch 187/500] mean_loss=4.1155
+
+[Stage2 epoch 188/500] M = 28000
+[Stage2 epoch 188/500] mean_loss=4.1141
+
+[Stage2 epoch 189/500] M = 28000
+[Stage2 epoch 189/500] mean_loss=4.1193
+
+[Stage2 epoch 190/500] M = 28000
+[Stage2 epoch 190/500] mean_loss=4.1170
+
+[Stage2 epoch 191/500] M = 28000
+[Stage2 epoch 191/500] mean_loss=4.1119
+
+[Stage2 epoch 192/500] M = 28000
+[Stage2 epoch 192/500] mean_loss=4.1205
+
+[Stage2 epoch 193/500] M = 28000
+[Stage2 epoch 193/500] mean_loss=4.1128
+
+[Stage2 epoch 194/500] M = 28000
+[Stage2 epoch 194/500] mean_loss=4.1165
+
+[Stage2 epoch 195/500] M = 28000
+[Stage2 epoch 195/500] mean_loss=4.1150
+
+[Stage2 epoch 196/500] M = 28000
+[Stage2 epoch 196/500] mean_loss=4.1191
+
+[Stage2 epoch 197/500] M = 28000
+[Stage2 epoch 197/500] mean_loss=4.1152
+
+[Stage2 epoch 198/500] M = 28000
+[Stage2 epoch 198/500] mean_loss=4.1158
+
+[Stage2 epoch 199/500] M = 28000
+[Stage2 epoch 199/500] mean_loss=4.1166
+
+[Stage2 epoch 200/500] M = 28000
+[Stage2 epoch 200/500] mean_loss=4.1137
+
+[Stage2 epoch 201/500] M = 28000
+[Stage2 epoch 201/500] mean_loss=4.1111
+
+[Stage2 epoch 202/500] M = 28000
+[Stage2 epoch 202/500] mean_loss=4.1091
+
+[Stage2 epoch 203/500] M = 28000
+[Stage2 epoch 203/500] mean_loss=4.1172
+
+[Stage2 epoch 204/500] M = 28000
+[Stage2 epoch 204/500] mean_loss=4.1182
+
+[Stage2 epoch 205/500] M = 28000
+[Stage2 epoch 205/500] mean_loss=4.1187
+
+[Stage2 epoch 206/500] M = 28000
+[Stage2 epoch 206/500] mean_loss=4.1182
+
+[Stage2 epoch 207/500] M = 28000
+[Stage2 epoch 207/500] mean_loss=4.1149
+
+[Stage2 epoch 208/500] M = 28000
+[Stage2 epoch 208/500] mean_loss=4.1065
+
+[Stage2 epoch 209/500] M = 28000
+[Stage2 epoch 209/500] mean_loss=4.1102
+
+[Stage2 epoch 210/500] M = 28000
+[Stage2 epoch 210/500] mean_loss=4.1143
+
+[Stage2 epoch 211/500] M = 28000
+[Stage2 epoch 211/500] mean_loss=4.1115
+
+[Stage2 epoch 212/500] M = 28000
+[Stage2 epoch 212/500] mean_loss=4.1198
+
+[Stage2 epoch 213/500] M = 28000
+[Stage2 epoch 213/500] mean_loss=4.1113
+
+[Stage2 epoch 214/500] M = 28000
+[Stage2 epoch 214/500] mean_loss=4.1087
+
+[Stage2 epoch 215/500] M = 28000
+[Stage2 epoch 215/500] mean_loss=4.1095
+
+[Stage2 epoch 216/500] M = 28000
+[Stage2 epoch 216/500] mean_loss=4.1152
+
+[Stage2 epoch 217/500] M = 28000
+[Stage2 epoch 217/500] mean_loss=4.1138
+
+[Stage2 epoch 218/500] M = 28000
+[Stage2 epoch 218/500] mean_loss=4.1144
+
+[Stage2 epoch 219/500] M = 28000
+[Stage2 epoch 219/500] mean_loss=4.1082
+
+[Stage2 epoch 220/500] M = 28000
+[Stage2 epoch 220/500] mean_loss=4.1142
+
+[Stage2 epoch 221/500] M = 28000
+[Stage2 epoch 221/500] mean_loss=4.1074
+
+[Stage2 epoch 222/500] M = 28000
+[Stage2 epoch 222/500] mean_loss=4.1151
+
+[Stage2 epoch 223/500] M = 28000
+[Stage2 epoch 223/500] mean_loss=4.1152
+
+[Stage2 epoch 224/500] M = 28000
+[Stage2 epoch 224/500] mean_loss=4.1036
+
+[Stage2 epoch 225/500] M = 28000
+[Stage2 epoch 225/500] mean_loss=4.1145
+
+[Stage2 epoch 226/500] M = 28000
+[Stage2 epoch 226/500] mean_loss=4.1098
+
+[Stage2 epoch 227/500] M = 28000
+[Stage2 epoch 227/500] mean_loss=4.1065
+
+[Stage2 epoch 228/500] M = 28000
+[Stage2 epoch 228/500] mean_loss=4.1044
+
+[Stage2 epoch 229/500] M = 28000
+[Stage2 epoch 229/500] mean_loss=4.1136
+
+[Stage2 epoch 230/500] M = 28000
+[Stage2 epoch 230/500] mean_loss=4.1057
+
+[Stage2 epoch 231/500] M = 28000
+[Stage2 epoch 231/500] mean_loss=4.1109
+
+[Stage2 epoch 232/500] M = 28000
+[Stage2 epoch 232/500] mean_loss=4.1098
+
+[Stage2 epoch 233/500] M = 28000
+[Stage2 epoch 233/500] mean_loss=4.1206
+
+[Stage2 epoch 234/500] M = 28000
+[Stage2 epoch 234/500] mean_loss=4.1109
+
+[Stage2 epoch 235/500] M = 28000
+[Stage2 epoch 235/500] mean_loss=4.1127
+
+[Stage2 epoch 236/500] M = 28000
+[Stage2 epoch 236/500] mean_loss=4.1083
+
+[Stage2 epoch 237/500] M = 28000
+[Stage2 epoch 237/500] mean_loss=4.1047
+
+[Stage2 epoch 238/500] M = 28000
+[Stage2 epoch 238/500] mean_loss=4.1048
+
+[Stage2 epoch 239/500] M = 28000
+[Stage2 epoch 239/500] mean_loss=4.1035
+
+[Stage2 epoch 240/500] M = 28000
+[Stage2 epoch 240/500] mean_loss=4.1118
+
+[Stage2 epoch 241/500] M = 28000
+[Stage2 epoch 241/500] mean_loss=4.1090
+
+[Stage2 epoch 242/500] M = 28000
+[Stage2 epoch 242/500] mean_loss=4.1034
+
+[Stage2 epoch 243/500] M = 28000
+[Stage2 epoch 243/500] mean_loss=4.1090
+
+[Stage2 epoch 244/500] M = 28000
+[Stage2 epoch 244/500] mean_loss=4.1036
+
+[Stage2 epoch 245/500] M = 28000
+[Stage2 epoch 245/500] mean_loss=4.1094
+
+[Stage2 epoch 246/500] M = 28000
+[Stage2 epoch 246/500] mean_loss=4.1112
+
+[Stage2 epoch 247/500] M = 28000
+[Stage2 epoch 247/500] mean_loss=4.1101
+
+[Stage2 epoch 248/500] M = 28000
+[Stage2 epoch 248/500] mean_loss=4.1076
+
+[Stage2 epoch 249/500] M = 28000
+[Stage2 epoch 249/500] mean_loss=4.1080
+
+[Stage2 epoch 250/500] M = 28000
+[Stage2 epoch 250/500] mean_loss=4.1052
+
+[Stage2 epoch 251/500] M = 28000
+[Stage2 epoch 251/500] mean_loss=4.1092
+
+[Stage2 epoch 252/500] M = 28000
+[Stage2 epoch 252/500] mean_loss=4.1064
+
+[Stage2 epoch 253/500] M = 28000
+[Stage2 epoch 253/500] mean_loss=4.1126
+
+[Stage2 epoch 254/500] M = 28000
+[Stage2 epoch 254/500] mean_loss=4.1084
+
+[Stage2 epoch 255/500] M = 28000
+[Stage2 epoch 255/500] mean_loss=4.1072
+
+[Stage2 epoch 256/500] M = 28000
+[Stage2 epoch 256/500] mean_loss=4.1063
+
+[Stage2 epoch 257/500] M = 28000
+[Stage2 epoch 257/500] mean_loss=4.0985
+
+[Stage2 epoch 258/500] M = 28000
+[Stage2 epoch 258/500] mean_loss=4.1069
+
+[Stage2 epoch 259/500] M = 28000
+[Stage2 epoch 259/500] mean_loss=4.1016
+
+[Stage2 epoch 260/500] M = 28000
+[Stage2 epoch 260/500] mean_loss=4.1063
+
+[Stage2 epoch 261/500] M = 28000
+[Stage2 epoch 261/500] mean_loss=4.1075
+
+[Stage2 epoch 262/500] M = 28000
+[Stage2 epoch 262/500] mean_loss=4.1052
+
+[Stage2 epoch 263/500] M = 28000
+[Stage2 epoch 263/500] mean_loss=4.1088
+
+[Stage2 epoch 264/500] M = 28000
+[Stage2 epoch 264/500] mean_loss=4.1029
+
+[Stage2 epoch 265/500] M = 28000
+[Stage2 epoch 265/500] mean_loss=4.1055
+
+[Stage2 epoch 266/500] M = 28000
+[Stage2 epoch 266/500] mean_loss=4.1089
+
+[Stage2 epoch 267/500] M = 28000
+[Stage2 epoch 267/500] mean_loss=4.1020
+
+[Stage2 epoch 268/500] M = 28000
+[Stage2 epoch 268/500] mean_loss=4.1078
+
+[Stage2 epoch 269/500] M = 28000
+[Stage2 epoch 269/500] mean_loss=4.0999
+
+[Stage2 epoch 270/500] M = 28000
+[Stage2 epoch 270/500] mean_loss=4.1087
+
+[Stage2 epoch 271/500] M = 28000
+[Stage2 epoch 271/500] mean_loss=4.1075
+
+[Stage2 epoch 272/500] M = 28000
+[Stage2 epoch 272/500] mean_loss=4.1001
+
+[Stage2 epoch 273/500] M = 28000
+[Stage2 epoch 273/500] mean_loss=4.1012
+
+[Stage2 epoch 274/500] M = 28000
+[Stage2 epoch 274/500] mean_loss=4.1039
+
+[Stage2 epoch 275/500] M = 28000
+[Stage2 epoch 275/500] mean_loss=4.1052
+
+[Stage2 epoch 276/500] M = 28000
+[Stage2 epoch 276/500] mean_loss=4.1010
+
+[Stage2 epoch 277/500] M = 28000
+[Stage2 epoch 277/500] mean_loss=4.1061
+
+[Stage2 epoch 278/500] M = 28000
+[Stage2 epoch 278/500] mean_loss=4.1027
+
+[Stage2 epoch 279/500] M = 28000
+[Stage2 epoch 279/500] mean_loss=4.1041
+
+[Stage2 epoch 280/500] M = 28000
+[Stage2 epoch 280/500] mean_loss=4.1027
+
+[Stage2 epoch 281/500] M = 28000
+[Stage2 epoch 281/500] mean_loss=4.1052
+
+[Stage2 epoch 282/500] M = 28000
+[Stage2 epoch 282/500] mean_loss=4.1025
+
+[Stage2 epoch 283/500] M = 28000
+[Stage2 epoch 283/500] mean_loss=4.1052
+
+[Stage2 epoch 284/500] M = 28000
+[Stage2 epoch 284/500] mean_loss=4.0990
+
+[Stage2 epoch 285/500] M = 28000
+[Stage2 epoch 285/500] mean_loss=4.1026
+
+[Stage2 epoch 286/500] M = 28000
+[Stage2 epoch 286/500] mean_loss=4.1039
+
+[Stage2 epoch 287/500] M = 28000
+[Stage2 epoch 287/500] mean_loss=4.0999
+
+[Stage2 epoch 288/500] M = 28000
+[Stage2 epoch 288/500] mean_loss=4.0984
+
+[Stage2 epoch 289/500] M = 28000
+[Stage2 epoch 289/500] mean_loss=4.1078
+
+[Stage2 epoch 290/500] M = 28000
+[Stage2 epoch 290/500] mean_loss=4.1014
+
+[Stage2 epoch 291/500] M = 28000
+[Stage2 epoch 291/500] mean_loss=4.1077
+
+[Stage2 epoch 292/500] M = 28000
+[Stage2 epoch 292/500] mean_loss=4.1068
+
+[Stage2 epoch 293/500] M = 28000
+[Stage2 epoch 293/500] mean_loss=4.1034
+
+[Stage2 epoch 294/500] M = 28000
+[Stage2 epoch 294/500] mean_loss=4.1026
+
+[Stage2 epoch 295/500] M = 28000
+[Stage2 epoch 295/500] mean_loss=4.1042
+
+[Stage2 epoch 296/500] M = 28000
+[Stage2 epoch 296/500] mean_loss=4.1057
+
+[Stage2 epoch 297/500] M = 28000
+[Stage2 epoch 297/500] mean_loss=4.0975
+
+[Stage2 epoch 298/500] M = 28000
+[Stage2 epoch 298/500] mean_loss=4.0977
+
+[Stage2 epoch 299/500] M = 28000
+[Stage2 epoch 299/500] mean_loss=4.0971
+
+[Stage2 epoch 300/500] M = 28000
+[Stage2 epoch 300/500] mean_loss=4.1001
+
+[Stage2 epoch 301/500] M = 28000
+[Stage2 epoch 301/500] mean_loss=4.1008
+
+[Stage2 epoch 302/500] M = 28000
+[Stage2 epoch 302/500] mean_loss=4.1045
+
+[Stage2 epoch 303/500] M = 28000
+[Stage2 epoch 303/500] mean_loss=4.0986
+
+[Stage2 epoch 304/500] M = 28000
+[Stage2 epoch 304/500] mean_loss=4.0997
+
+[Stage2 epoch 305/500] M = 28000
+[Stage2 epoch 305/500] mean_loss=4.1001
+
+[Stage2 epoch 306/500] M = 28000
+[Stage2 epoch 306/500] mean_loss=4.0956
+
+[Stage2 epoch 307/500] M = 28000
+[Stage2 epoch 307/500] mean_loss=4.0987
+
+[Stage2 epoch 308/500] M = 28000
+[Stage2 epoch 308/500] mean_loss=4.1077
+
+[Stage2 epoch 309/500] M = 28000
+[Stage2 epoch 309/500] mean_loss=4.1005
+
+[Stage2 epoch 310/500] M = 28000
+[Stage2 epoch 310/500] mean_loss=4.1019
+
+[Stage2 epoch 311/500] M = 28000
+[Stage2 epoch 311/500] mean_loss=4.0963
+
+[Stage2 epoch 312/500] M = 28000
+[Stage2 epoch 312/500] mean_loss=4.0998
+
+[Stage2 epoch 313/500] M = 28000
+[Stage2 epoch 313/500] mean_loss=4.0951
+
+[Stage2 epoch 314/500] M = 28000
+[Stage2 epoch 314/500] mean_loss=4.0980
+
+[Stage2 epoch 315/500] M = 28000
+[Stage2 epoch 315/500] mean_loss=4.0969
+
+[Stage2 epoch 316/500] M = 28000
+[Stage2 epoch 316/500] mean_loss=4.1075
+
+[Stage2 epoch 317/500] M = 28000
+[Stage2 epoch 317/500] mean_loss=4.0973
+
+[Stage2 epoch 318/500] M = 28000
+[Stage2 epoch 318/500] mean_loss=4.0970
+
+[Stage2 epoch 319/500] M = 28000
+[Stage2 epoch 319/500] mean_loss=4.0974
+
+[Stage2 epoch 320/500] M = 28000
+[Stage2 epoch 320/500] mean_loss=4.1013
+
+[Stage2 epoch 321/500] M = 28000
+[Stage2 epoch 321/500] mean_loss=4.0987
+
+[Stage2 epoch 322/500] M = 28000
+[Stage2 epoch 322/500] mean_loss=4.0998
+
+[Stage2 epoch 323/500] M = 28000
+[Stage2 epoch 323/500] mean_loss=4.0969
+
+[Stage2 epoch 324/500] M = 28000
+[Stage2 epoch 324/500] mean_loss=4.0963
+
+[Stage2 epoch 325/500] M = 28000
+[Stage2 epoch 325/500] mean_loss=4.0987
+
+[Stage2 epoch 326/500] M = 28000
+[Stage2 epoch 326/500] mean_loss=4.0984
+
+[Stage2 epoch 327/500] M = 28000
+[Stage2 epoch 327/500] mean_loss=4.0965
+
+[Stage2 epoch 328/500] M = 28000
+[Stage2 epoch 328/500] mean_loss=4.0969
+
+[Stage2 epoch 329/500] M = 28000
+[Stage2 epoch 329/500] mean_loss=4.0991
+
+[Stage2 epoch 330/500] M = 28000
+[Stage2 epoch 330/500] mean_loss=4.0940
+
+[Stage2 epoch 331/500] M = 28000
+[Stage2 epoch 331/500] mean_loss=4.1016
+
+[Stage2 epoch 332/500] M = 28000
+[Stage2 epoch 332/500] mean_loss=4.0926
+
+[Stage2 epoch 333/500] M = 28000
+[Stage2 epoch 333/500] mean_loss=4.0943
+
+[Stage2 epoch 334/500] M = 28000
+[Stage2 epoch 334/500] mean_loss=4.0909
+
+[Stage2 epoch 335/500] M = 28000
+[Stage2 epoch 335/500] mean_loss=4.0966
+
+[Stage2 epoch 336/500] M = 28000
+[Stage2 epoch 336/500] mean_loss=4.0958
+
+[Stage2 epoch 337/500] M = 28000
+[Stage2 epoch 337/500] mean_loss=4.0979
+
+[Stage2 epoch 338/500] M = 28000
+[Stage2 epoch 338/500] mean_loss=4.0935
+
+[Stage2 epoch 339/500] M = 28000
+[Stage2 epoch 339/500] mean_loss=4.0960
+
+[Stage2 epoch 340/500] M = 28000
+[Stage2 epoch 340/500] mean_loss=4.0982
+
+[Stage2 epoch 341/500] M = 28000
+[Stage2 epoch 341/500] mean_loss=4.1027
+
+[Stage2 epoch 342/500] M = 28000
+[Stage2 epoch 342/500] mean_loss=4.0898
+
+[Stage2 epoch 343/500] M = 28000
+[Stage2 epoch 343/500] mean_loss=4.0896
+
+[Stage2 epoch 344/500] M = 28000
+[Stage2 epoch 344/500] mean_loss=4.1019
+
+[Stage2 epoch 345/500] M = 28000
+[Stage2 epoch 345/500] mean_loss=4.0959
+
+[Stage2 epoch 346/500] M = 28000
+[Stage2 epoch 346/500] mean_loss=4.0935
+
+[Stage2 epoch 347/500] M = 28000
+[Stage2 epoch 347/500] mean_loss=4.0912
+
+[Stage2 epoch 348/500] M = 28000
+[Stage2 epoch 348/500] mean_loss=4.0966
+
+[Stage2 epoch 349/500] M = 28000
+[Stage2 epoch 349/500] mean_loss=4.0923
+
+[Stage2 epoch 350/500] M = 28000
+[Stage2 epoch 350/500] mean_loss=4.0917
+
+[Stage2 epoch 351/500] M = 28000
+[Stage2 epoch 351/500] mean_loss=4.1024
+
+[Stage2 epoch 352/500] M = 28000
+[Stage2 epoch 352/500] mean_loss=4.0942
+
+[Stage2 epoch 353/500] M = 28000
+[Stage2 epoch 353/500] mean_loss=4.0996
+
+[Stage2 epoch 354/500] M = 28000
+[Stage2 epoch 354/500] mean_loss=4.0947
+
+[Stage2 epoch 355/500] M = 28000
+[Stage2 epoch 355/500] mean_loss=4.0944
+
+[Stage2 epoch 356/500] M = 28000
+[Stage2 epoch 356/500] mean_loss=4.0899
+
+[Stage2 epoch 357/500] M = 28000
+[Stage2 epoch 357/500] mean_loss=4.0957
+
+[Stage2 epoch 358/500] M = 28000
+[Stage2 epoch 358/500] mean_loss=4.0934
+
+[Stage2 epoch 359/500] M = 28000
+[Stage2 epoch 359/500] mean_loss=4.0933
+
+[Stage2 epoch 360/500] M = 28000
+[Stage2 epoch 360/500] mean_loss=4.0899
+
+[Stage2 epoch 361/500] M = 28000
+[Stage2 epoch 361/500] mean_loss=4.0946
+
+[Stage2 epoch 362/500] M = 28000
+[Stage2 epoch 362/500] mean_loss=4.0905
+
+[Stage2 epoch 363/500] M = 28000
+[Stage2 epoch 363/500] mean_loss=4.1008
+
+[Stage2 epoch 364/500] M = 28000
+[Stage2 epoch 364/500] mean_loss=4.0899
+
+[Stage2 epoch 365/500] M = 28000
+[Stage2 epoch 365/500] mean_loss=4.0930
+
+[Stage2 epoch 366/500] M = 28000
+[Stage2 epoch 366/500] mean_loss=4.1021
+
+[Stage2 epoch 367/500] M = 28000
+[Stage2 epoch 367/500] mean_loss=4.0944
+
+[Stage2 epoch 368/500] M = 28000
+[Stage2 epoch 368/500] mean_loss=4.0877
+
+[Stage2 epoch 369/500] M = 28000
+[Stage2 epoch 369/500] mean_loss=4.0949
+
+[Stage2 epoch 370/500] M = 28000
+[Stage2 epoch 370/500] mean_loss=4.0938
+
+[Stage2 epoch 371/500] M = 28000
+[Stage2 epoch 371/500] mean_loss=4.0943
+
+[Stage2 epoch 372/500] M = 28000
+[Stage2 epoch 372/500] mean_loss=4.0908
+
+[Stage2 epoch 373/500] M = 28000
+[Stage2 epoch 373/500] mean_loss=4.0869
+
+[Stage2 epoch 374/500] M = 28000
+[Stage2 epoch 374/500] mean_loss=4.0937
+
+[Stage2 epoch 375/500] M = 28000
+[Stage2 epoch 375/500] mean_loss=4.0937
+
+[Stage2 epoch 376/500] M = 28000
+[Stage2 epoch 376/500] mean_loss=4.0899
+
+[Stage2 epoch 377/500] M = 28000
+[Stage2 epoch 377/500] mean_loss=4.0953
+
+[Stage2 epoch 378/500] M = 28000
+[Stage2 epoch 378/500] mean_loss=4.0918
+
+[Stage2 epoch 379/500] M = 28000
+[Stage2 epoch 379/500] mean_loss=4.0846
+
+[Stage2 epoch 380/500] M = 28000
+[Stage2 epoch 380/500] mean_loss=4.0888
+
+[Stage2 epoch 381/500] M = 28000
+[Stage2 epoch 381/500] mean_loss=4.0905
+
+[Stage2 epoch 382/500] M = 28000
+[Stage2 epoch 382/500] mean_loss=4.0908
+
+[Stage2 epoch 383/500] M = 28000
+[Stage2 epoch 383/500] mean_loss=4.0904
+
+[Stage2 epoch 384/500] M = 28000
+[Stage2 epoch 384/500] mean_loss=4.0920
+
+[Stage2 epoch 385/500] M = 28000
+[Stage2 epoch 385/500] mean_loss=4.0909
+
+[Stage2 epoch 386/500] M = 28000
+[Stage2 epoch 386/500] mean_loss=4.0903
+
+[Stage2 epoch 387/500] M = 28000
+[Stage2 epoch 387/500] mean_loss=4.0885
+
+[Stage2 epoch 388/500] M = 28000
+[Stage2 epoch 388/500] mean_loss=4.0882
+
+[Stage2 epoch 389/500] M = 28000
+[Stage2 epoch 389/500] mean_loss=4.0969
+
+[Stage2 epoch 390/500] M = 28000
+[Stage2 epoch 390/500] mean_loss=4.0918
+
+[Stage2 epoch 391/500] M = 28000
+[Stage2 epoch 391/500] mean_loss=4.0943
+
+[Stage2 epoch 392/500] M = 28000
+[Stage2 epoch 392/500] mean_loss=4.0862
+
+[Stage2 epoch 393/500] M = 28000
+[Stage2 epoch 393/500] mean_loss=4.0879
+
+[Stage2 epoch 394/500] M = 28000
+[Stage2 epoch 394/500] mean_loss=4.0873
+
+[Stage2 epoch 395/500] M = 28000
+[Stage2 epoch 395/500] mean_loss=4.0884
+
+[Stage2 epoch 396/500] M = 28000
+[Stage2 epoch 396/500] mean_loss=4.0966
+
+[Stage2 epoch 397/500] M = 28000
+[Stage2 epoch 397/500] mean_loss=4.0890
+
+[Stage2 epoch 398/500] M = 28000
+[Stage2 epoch 398/500] mean_loss=4.0910
+
+[Stage2 epoch 399/500] M = 28000
+[Stage2 epoch 399/500] mean_loss=4.0884
+
+[Stage2 epoch 400/500] M = 28000
+[Stage2 epoch 400/500] mean_loss=4.0868
+
+[Stage2 epoch 401/500] M = 28000
+[Stage2 epoch 401/500] mean_loss=4.0897
+
+[Stage2 epoch 402/500] M = 28000
+[Stage2 epoch 402/500] mean_loss=4.0889
+
+[Stage2 epoch 403/500] M = 28000
+[Stage2 epoch 403/500] mean_loss=4.0868
+
+[Stage2 epoch 404/500] M = 28000
+[Stage2 epoch 404/500] mean_loss=4.0902
+
+[Stage2 epoch 405/500] M = 28000
+[Stage2 epoch 405/500] mean_loss=4.0894
+
+[Stage2 epoch 406/500] M = 28000
+[Stage2 epoch 406/500] mean_loss=4.0972
+
+[Stage2 epoch 407/500] M = 28000
+[Stage2 epoch 407/500] mean_loss=4.0902
+
+[Stage2 epoch 408/500] M = 28000
+[Stage2 epoch 408/500] mean_loss=4.0844
+
+[Stage2 epoch 409/500] M = 28000
+[Stage2 epoch 409/500] mean_loss=4.0876
+
+[Stage2 epoch 410/500] M = 28000
+[Stage2 epoch 410/500] mean_loss=4.0854
+
+[Stage2 epoch 411/500] M = 28000
+[Stage2 epoch 411/500] mean_loss=4.0884
+
+[Stage2 epoch 412/500] M = 28000
+[Stage2 epoch 412/500] mean_loss=4.0907
+
+[Stage2 epoch 413/500] M = 28000
+[Stage2 epoch 413/500] mean_loss=4.0868
+
+[Stage2 epoch 414/500] M = 28000
+[Stage2 epoch 414/500] mean_loss=4.0894
+
+[Stage2 epoch 415/500] M = 28000
+[Stage2 epoch 415/500] mean_loss=4.0914
+
+[Stage2 epoch 416/500] M = 28000
+[Stage2 epoch 416/500] mean_loss=4.0866
+
+[Stage2 epoch 417/500] M = 28000
+[Stage2 epoch 417/500] mean_loss=4.0867
+
+[Stage2 epoch 418/500] M = 28000
+[Stage2 epoch 418/500] mean_loss=4.0849
+
+[Stage2 epoch 419/500] M = 28000
+[Stage2 epoch 419/500] mean_loss=4.0792
+
+[Stage2 epoch 420/500] M = 28000
+[Stage2 epoch 420/500] mean_loss=4.0892
+
+[Stage2 epoch 421/500] M = 28000
+[Stage2 epoch 421/500] mean_loss=4.0891
+
+[Stage2 epoch 422/500] M = 28000
+[Stage2 epoch 422/500] mean_loss=4.0923
+
+[Stage2 epoch 423/500] M = 28000
+[Stage2 epoch 423/500] mean_loss=4.0835
+
+[Stage2 epoch 424/500] M = 28000
+[Stage2 epoch 424/500] mean_loss=4.0858
+
+[Stage2 epoch 425/500] M = 28000
+[Stage2 epoch 425/500] mean_loss=4.0889
+
+[Stage2 epoch 426/500] M = 28000
+[Stage2 epoch 426/500] mean_loss=4.0916
+
+[Stage2 epoch 427/500] M = 28000
+[Stage2 epoch 427/500] mean_loss=4.0814
+
+[Stage2 epoch 428/500] M = 28000
+[Stage2 epoch 428/500] mean_loss=4.0941
+
+[Stage2 epoch 429/500] M = 28000
+[Stage2 epoch 429/500] mean_loss=4.0899
+
+[Stage2 epoch 430/500] M = 28000
+[Stage2 epoch 430/500] mean_loss=4.0900
+
+[Stage2 epoch 431/500] M = 28000
+[Stage2 epoch 431/500] mean_loss=4.0828
+
+[Stage2 epoch 432/500] M = 28000
+[Stage2 epoch 432/500] mean_loss=4.0841
+
+[Stage2 epoch 433/500] M = 28000
+[Stage2 epoch 433/500] mean_loss=4.0846
+
+[Stage2 epoch 434/500] M = 28000
+[Stage2 epoch 434/500] mean_loss=4.0854
+
+[Stage2 epoch 435/500] M = 28000
+[Stage2 epoch 435/500] mean_loss=4.0870
+
+[Stage2 epoch 436/500] M = 28000
+[Stage2 epoch 436/500] mean_loss=4.0864
+
+[Stage2 epoch 437/500] M = 28000
+[Stage2 epoch 437/500] mean_loss=4.0864
+
+[Stage2 epoch 438/500] M = 28000
+[Stage2 epoch 438/500] mean_loss=4.0857
+
+[Stage2 epoch 439/500] M = 28000
+[Stage2 epoch 439/500] mean_loss=4.0862
+
+[Stage2 epoch 440/500] M = 28000
+[Stage2 epoch 440/500] mean_loss=4.0864
+
+[Stage2 epoch 441/500] M = 28000
+[Stage2 epoch 441/500] mean_loss=4.0822
+
+[Stage2 epoch 442/500] M = 28000
+[Stage2 epoch 442/500] mean_loss=4.0879
+
+[Stage2 epoch 443/500] M = 28000
+[Stage2 epoch 443/500] mean_loss=4.0816
+
+[Stage2 epoch 444/500] M = 28000
+[Stage2 epoch 444/500] mean_loss=4.0873
+
+[Stage2 epoch 445/500] M = 28000
+[Stage2 epoch 445/500] mean_loss=4.0853
+
+[Stage2 epoch 446/500] M = 28000
+[Stage2 epoch 446/500] mean_loss=4.0813
+
+[Stage2 epoch 447/500] M = 28000
+[Stage2 epoch 447/500] mean_loss=4.0841
+
+[Stage2 epoch 448/500] M = 28000
+[Stage2 epoch 448/500] mean_loss=4.0844
+
+[Stage2 epoch 449/500] M = 28000
+[Stage2 epoch 449/500] mean_loss=4.0864
+
+[Stage2 epoch 450/500] M = 28000
+[Stage2 epoch 450/500] mean_loss=4.0824
+
+[Stage2 epoch 451/500] M = 28000
+[Stage2 epoch 451/500] mean_loss=4.0833
+
+[Stage2 epoch 452/500] M = 28000
+[Stage2 epoch 452/500] mean_loss=4.0820
+
+[Stage2 epoch 453/500] M = 28000
+[Stage2 epoch 453/500] mean_loss=4.0846
+
+[Stage2 epoch 454/500] M = 28000
+[Stage2 epoch 454/500] mean_loss=4.0867
+
+[Stage2 epoch 455/500] M = 28000
+[Stage2 epoch 455/500] mean_loss=4.0888
+
+[Stage2 epoch 456/500] M = 28000
+[Stage2 epoch 456/500] mean_loss=4.0889
+
+[Stage2 epoch 457/500] M = 28000
+[Stage2 epoch 457/500] mean_loss=4.0899
+
+[Stage2 epoch 458/500] M = 28000
+[Stage2 epoch 458/500] mean_loss=4.0917
+
+[Stage2 epoch 459/500] M = 28000
+[Stage2 epoch 459/500] mean_loss=4.0830
+
+[Stage2 epoch 460/500] M = 28000
+[Stage2 epoch 460/500] mean_loss=4.0833
+
+[Stage2 epoch 461/500] M = 28000
+[Stage2 epoch 461/500] mean_loss=4.0810
+
+[Stage2 epoch 462/500] M = 28000
+[Stage2 epoch 462/500] mean_loss=4.0838
+
+[Stage2 epoch 463/500] M = 28000
+[Stage2 epoch 463/500] mean_loss=4.0882
+
+[Stage2 epoch 464/500] M = 28000
+[Stage2 epoch 464/500] mean_loss=4.0822
+
+[Stage2 epoch 465/500] M = 28000
+[Stage2 epoch 465/500] mean_loss=4.0817
+
+[Stage2 epoch 466/500] M = 28000
+[Stage2 epoch 466/500] mean_loss=4.0886
+
+[Stage2 epoch 467/500] M = 28000
+[Stage2 epoch 467/500] mean_loss=4.0873
+
+[Stage2 epoch 468/500] M = 28000
+[Stage2 epoch 468/500] mean_loss=4.0818
+
+[Stage2 epoch 469/500] M = 28000
+[Stage2 epoch 469/500] mean_loss=4.0773
+
+[Stage2 epoch 470/500] M = 28000
+[Stage2 epoch 470/500] mean_loss=4.0836
+
+[Stage2 epoch 471/500] M = 28000
+[Stage2 epoch 471/500] mean_loss=4.0891
+
+[Stage2 epoch 472/500] M = 28000
+[Stage2 epoch 472/500] mean_loss=4.0859
+
+[Stage2 epoch 473/500] M = 28000
+[Stage2 epoch 473/500] mean_loss=4.0866
+
+[Stage2 epoch 474/500] M = 28000
+[Stage2 epoch 474/500] mean_loss=4.0833
+
+[Stage2 epoch 475/500] M = 28000
+[Stage2 epoch 475/500] mean_loss=4.0925
+
+[Stage2 epoch 476/500] M = 28000
+[Stage2 epoch 476/500] mean_loss=4.0812
+
+[Stage2 epoch 477/500] M = 28000
+[Stage2 epoch 477/500] mean_loss=4.0829
+
+[Stage2 epoch 478/500] M = 28000
+[Stage2 epoch 478/500] mean_loss=4.0820
+
+[Stage2 epoch 479/500] M = 28000
+[Stage2 epoch 479/500] mean_loss=4.0883
+
+[Stage2 epoch 480/500] M = 28000
+[Stage2 epoch 480/500] mean_loss=4.0860
+
+[Stage2 epoch 481/500] M = 28000
+[Stage2 epoch 481/500] mean_loss=4.0931
+
+[Stage2 epoch 482/500] M = 28000
+[Stage2 epoch 482/500] mean_loss=4.0936
+
+[Stage2 epoch 483/500] M = 28000
+[Stage2 epoch 483/500] mean_loss=4.0846
+
+[Stage2 epoch 484/500] M = 28000
+[Stage2 epoch 484/500] mean_loss=4.0874
+
+[Stage2 epoch 485/500] M = 28000
+[Stage2 epoch 485/500] mean_loss=4.0833
+
+[Stage2 epoch 486/500] M = 28000
+[Stage2 epoch 486/500] mean_loss=4.0873
+
+[Stage2 epoch 487/500] M = 28000
+[Stage2 epoch 487/500] mean_loss=4.0767
+
+[Stage2 epoch 488/500] M = 28000
+[Stage2 epoch 488/500] mean_loss=4.0816
+
+[Stage2 epoch 489/500] M = 28000
+[Stage2 epoch 489/500] mean_loss=4.0830
+
+[Stage2 epoch 490/500] M = 28000
+[Stage2 epoch 490/500] mean_loss=4.0775
+
+[Stage2 epoch 491/500] M = 28000
+[Stage2 epoch 491/500] mean_loss=4.0811
+
+[Stage2 epoch 492/500] M = 28000
+[Stage2 epoch 492/500] mean_loss=4.0806
+
+[Stage2 epoch 493/500] M = 28000
+[Stage2 epoch 493/500] mean_loss=4.0901
+
+[Stage2 epoch 494/500] M = 28000
+[Stage2 epoch 494/500] mean_loss=4.0871
+
+[Stage2 epoch 495/500] M = 28000
+[Stage2 epoch 495/500] mean_loss=4.0884
+
+[Stage2 epoch 496/500] M = 28000
+[Stage2 epoch 496/500] mean_loss=4.0783
+
+[Stage2 epoch 497/500] M = 28000
+[Stage2 epoch 497/500] mean_loss=4.0829
+
+[Stage2 epoch 498/500] M = 28000
+[Stage2 epoch 498/500] mean_loss=4.0823
+
+[Stage2 epoch 499/500] M = 28000
+[Stage2 epoch 499/500] mean_loss=4.0826
+
+[Stage2 epoch 500/500] M = 28000
+[Stage2 epoch 500/500] mean_loss=4.0825
+[Save] state_dict -> reaction_encoder_two_stage_multilevel_geomE.pth
+[Save] TorchScript -> reaction_encoder_two_stage_multilevel_geomE.pt
+
+=========== Geom-only: 仅 geom4+ΔE 连续 SupCon ===========
+
+[Geom-only epoch 1/500] M = 9762
+[Geom-only epoch 1/500] mean_loss=4.7660
+
+[Geom-only epoch 2/500] M = 9762
+[Geom-only epoch 2/500] mean_loss=4.6441
+
+[Geom-only epoch 3/500] M = 9762
+[Geom-only epoch 3/500] mean_loss=4.4893
+
+[Geom-only epoch 4/500] M = 9762
+[Geom-only epoch 4/500] mean_loss=4.3407
+
+[Geom-only epoch 5/500] M = 9762
+[Geom-only epoch 5/500] mean_loss=4.2455
+
+[Geom-only epoch 6/500] M = 9762
+[Geom-only epoch 6/500] mean_loss=4.1967
+
+[Geom-only epoch 7/500] M = 9762
+[Geom-only epoch 7/500] mean_loss=4.1574
+
+[Geom-only epoch 8/500] M = 9762
+[Geom-only epoch 8/500] mean_loss=4.1403
+
+[Geom-only epoch 9/500] M = 9762
+[Geom-only epoch 9/500] mean_loss=4.1286
+
+[Geom-only epoch 10/500] M = 9762
+[Geom-only epoch 10/500] mean_loss=4.1093
+
+[Geom-only epoch 11/500] M = 9762
+[Geom-only epoch 11/500] mean_loss=4.1004
+
+[Geom-only epoch 12/500] M = 9762
+[Geom-only epoch 12/500] mean_loss=4.0891
+
+[Geom-only epoch 13/500] M = 9762
+[Geom-only epoch 13/500] mean_loss=4.0783
+
+[Geom-only epoch 14/500] M = 9762
+[Geom-only epoch 14/500] mean_loss=4.0756
+
+[Geom-only epoch 15/500] M = 9762
+[Geom-only epoch 15/500] mean_loss=4.0649
+
+[Geom-only epoch 16/500] M = 9762
+[Geom-only epoch 16/500] mean_loss=4.0617
+
+[Geom-only epoch 17/500] M = 9762
+[Geom-only epoch 17/500] mean_loss=4.0617
+
+[Geom-only epoch 18/500] M = 9762
+[Geom-only epoch 18/500] mean_loss=4.0481
+
+[Geom-only epoch 19/500] M = 9762
+[Geom-only epoch 19/500] mean_loss=4.0429
+
+[Geom-only epoch 20/500] M = 9762
+[Geom-only epoch 20/500] mean_loss=4.0424
+
+[Geom-only epoch 21/500] M = 9762
+[Geom-only epoch 21/500] mean_loss=4.0298
+
+[Geom-only epoch 22/500] M = 9762
+[Geom-only epoch 22/500] mean_loss=4.0312
+
+[Geom-only epoch 23/500] M = 9762
+[Geom-only epoch 23/500] mean_loss=4.0217
+
+[Geom-only epoch 24/500] M = 9762
+[Geom-only epoch 24/500] mean_loss=4.0221
+
+[Geom-only epoch 25/500] M = 9762
+[Geom-only epoch 25/500] mean_loss=4.0168
+
+[Geom-only epoch 26/500] M = 9762
+[Geom-only epoch 26/500] mean_loss=4.0101
+
+[Geom-only epoch 27/500] M = 9762
+[Geom-only epoch 27/500] mean_loss=4.0089
+
+[Geom-only epoch 28/500] M = 9762
+[Geom-only epoch 28/500] mean_loss=4.0002
+
+[Geom-only epoch 29/500] M = 9762
+[Geom-only epoch 29/500] mean_loss=4.0006
+
+[Geom-only epoch 30/500] M = 9762
+[Geom-only epoch 30/500] mean_loss=3.9991
+
+[Geom-only epoch 31/500] M = 9762
+[Geom-only epoch 31/500] mean_loss=3.9972
+
+[Geom-only epoch 32/500] M = 9762
+[Geom-only epoch 32/500] mean_loss=3.9951
+
+[Geom-only epoch 33/500] M = 9762
+[Geom-only epoch 33/500] mean_loss=3.9988
+
+[Geom-only epoch 34/500] M = 9762
+[Geom-only epoch 34/500] mean_loss=3.9892
+
+[Geom-only epoch 35/500] M = 9762
+[Geom-only epoch 35/500] mean_loss=3.9851
+
+[Geom-only epoch 36/500] M = 9762
+[Geom-only epoch 36/500] mean_loss=3.9899
+
+[Geom-only epoch 37/500] M = 9762
+[Geom-only epoch 37/500] mean_loss=3.9821
+
+[Geom-only epoch 38/500] M = 9762
+[Geom-only epoch 38/500] mean_loss=3.9875
+
+[Geom-only epoch 39/500] M = 9762
+[Geom-only epoch 39/500] mean_loss=3.9807
+
+[Geom-only epoch 40/500] M = 9762
+[Geom-only epoch 40/500] mean_loss=3.9822
+
+[Geom-only epoch 41/500] M = 9762
+[Geom-only epoch 41/500] mean_loss=3.9780
+
+[Geom-only epoch 42/500] M = 9762
+[Geom-only epoch 42/500] mean_loss=3.9769
+
+[Geom-only epoch 43/500] M = 9762
+[Geom-only epoch 43/500] mean_loss=3.9760
+
+[Geom-only epoch 44/500] M = 9762
+[Geom-only epoch 44/500] mean_loss=3.9747
+
+[Geom-only epoch 45/500] M = 9762
+[Geom-only epoch 45/500] mean_loss=3.9711
+
+[Geom-only epoch 46/500] M = 9762
+[Geom-only epoch 46/500] mean_loss=3.9667
+
+[Geom-only epoch 47/500] M = 9762
+[Geom-only epoch 47/500] mean_loss=3.9628
+
+[Geom-only epoch 48/500] M = 9762
+[Geom-only epoch 48/500] mean_loss=3.9645
+
+[Geom-only epoch 49/500] M = 9762
+[Geom-only epoch 49/500] mean_loss=3.9628
+
+[Geom-only epoch 50/500] M = 9762
+[Geom-only epoch 50/500] mean_loss=3.9596
+
+[Geom-only epoch 51/500] M = 9762
+[Geom-only epoch 51/500] mean_loss=3.9633
+
+[Geom-only epoch 52/500] M = 9762
+[Geom-only epoch 52/500] mean_loss=3.9563
+
+[Geom-only epoch 53/500] M = 9762
+[Geom-only epoch 53/500] mean_loss=3.9555
+
+[Geom-only epoch 54/500] M = 9762
+[Geom-only epoch 54/500] mean_loss=3.9513
+
+[Geom-only epoch 55/500] M = 9762
+[Geom-only epoch 55/500] mean_loss=3.9569
+
+[Geom-only epoch 56/500] M = 9762
+[Geom-only epoch 56/500] mean_loss=3.9495
+
+[Geom-only epoch 57/500] M = 9762
+[Geom-only epoch 57/500] mean_loss=3.9560
+
+[Geom-only epoch 58/500] M = 9762
+[Geom-only epoch 58/500] mean_loss=3.9529
+
+[Geom-only epoch 59/500] M = 9762
+[Geom-only epoch 59/500] mean_loss=3.9455
+
+[Geom-only epoch 60/500] M = 9762
+[Geom-only epoch 60/500] mean_loss=3.9524
+
+[Geom-only epoch 61/500] M = 9762
+[Geom-only epoch 61/500] mean_loss=3.9525
+
+[Geom-only epoch 62/500] M = 9762
+[Geom-only epoch 62/500] mean_loss=3.9491
+
+[Geom-only epoch 63/500] M = 9762
+[Geom-only epoch 63/500] mean_loss=3.9451
+
+[Geom-only epoch 64/500] M = 9762
+[Geom-only epoch 64/500] mean_loss=3.9455
+
+[Geom-only epoch 65/500] M = 9762
+[Geom-only epoch 65/500] mean_loss=3.9424
+
+[Geom-only epoch 66/500] M = 9762
+[Geom-only epoch 66/500] mean_loss=3.9410
+
+[Geom-only epoch 67/500] M = 9762
+[Geom-only epoch 67/500] mean_loss=3.9409
+
+[Geom-only epoch 68/500] M = 9762
+[Geom-only epoch 68/500] mean_loss=3.9357
+
+[Geom-only epoch 69/500] M = 9762
+[Geom-only epoch 69/500] mean_loss=3.9326
+
+[Geom-only epoch 70/500] M = 9762
+[Geom-only epoch 70/500] mean_loss=3.9442
+
+[Geom-only epoch 71/500] M = 9762
+[Geom-only epoch 71/500] mean_loss=3.9403
+
+[Geom-only epoch 72/500] M = 9762
+[Geom-only epoch 72/500] mean_loss=3.9348
+
+[Geom-only epoch 73/500] M = 9762
+[Geom-only epoch 73/500] mean_loss=3.9331
+
+[Geom-only epoch 74/500] M = 9762
+[Geom-only epoch 74/500] mean_loss=3.9376
+
+[Geom-only epoch 75/500] M = 9762
+[Geom-only epoch 75/500] mean_loss=3.9413
+
+[Geom-only epoch 76/500] M = 9762
+[Geom-only epoch 76/500] mean_loss=3.9340
+
+[Geom-only epoch 77/500] M = 9762
+[Geom-only epoch 77/500] mean_loss=3.9337
+
+[Geom-only epoch 78/500] M = 9762
+[Geom-only epoch 78/500] mean_loss=3.9307
+
+[Geom-only epoch 79/500] M = 9762
+[Geom-only epoch 79/500] mean_loss=3.9295
+
+[Geom-only epoch 80/500] M = 9762
+[Geom-only epoch 80/500] mean_loss=3.9298
+
+[Geom-only epoch 81/500] M = 9762
+[Geom-only epoch 81/500] mean_loss=3.9288
+
+[Geom-only epoch 82/500] M = 9762
+[Geom-only epoch 82/500] mean_loss=3.9303
+
+[Geom-only epoch 83/500] M = 9762
+[Geom-only epoch 83/500] mean_loss=3.9300
+
+[Geom-only epoch 84/500] M = 9762
+[Geom-only epoch 84/500] mean_loss=3.9231
+
+[Geom-only epoch 85/500] M = 9762
+[Geom-only epoch 85/500] mean_loss=3.9211
+
+[Geom-only epoch 86/500] M = 9762
+[Geom-only epoch 86/500] mean_loss=3.9240
+
+[Geom-only epoch 87/500] M = 9762
+[Geom-only epoch 87/500] mean_loss=3.9210
+
+[Geom-only epoch 88/500] M = 9762
+[Geom-only epoch 88/500] mean_loss=3.9266
+
+[Geom-only epoch 89/500] M = 9762
+[Geom-only epoch 89/500] mean_loss=3.9257
+
+[Geom-only epoch 90/500] M = 9762
+[Geom-only epoch 90/500] mean_loss=3.9269
+
+[Geom-only epoch 91/500] M = 9762
+[Geom-only epoch 91/500] mean_loss=3.9214
+
+[Geom-only epoch 92/500] M = 9762
+[Geom-only epoch 92/500] mean_loss=3.9207
+
+[Geom-only epoch 93/500] M = 9762
+[Geom-only epoch 93/500] mean_loss=3.9187
+
+[Geom-only epoch 94/500] M = 9762
+[Geom-only epoch 94/500] mean_loss=3.9168
+
+[Geom-only epoch 95/500] M = 9762
+[Geom-only epoch 95/500] mean_loss=3.9185
+
+[Geom-only epoch 96/500] M = 9762
+[Geom-only epoch 96/500] mean_loss=3.9186
+
+[Geom-only epoch 97/500] M = 9762
+[Geom-only epoch 97/500] mean_loss=3.9141
+
+[Geom-only epoch 98/500] M = 9762
+[Geom-only epoch 98/500] mean_loss=3.9075
+
+[Geom-only epoch 99/500] M = 9762
+[Geom-only epoch 99/500] mean_loss=3.9172
+
+[Geom-only epoch 100/500] M = 9762
+[Geom-only epoch 100/500] mean_loss=3.9185
+
+[Geom-only epoch 101/500] M = 9762
+[Geom-only epoch 101/500] mean_loss=3.9160
+
+[Geom-only epoch 102/500] M = 9762
+[Geom-only epoch 102/500] mean_loss=3.9196
+
+[Geom-only epoch 103/500] M = 9762
+[Geom-only epoch 103/500] mean_loss=3.9128
+
+[Geom-only epoch 104/500] M = 9762
+[Geom-only epoch 104/500] mean_loss=3.9144
+
+[Geom-only epoch 105/500] M = 9762
+[Geom-only epoch 105/500] mean_loss=3.9081
+
+[Geom-only epoch 106/500] M = 9762
+[Geom-only epoch 106/500] mean_loss=3.9127
+
+[Geom-only epoch 107/500] M = 9762
+[Geom-only epoch 107/500] mean_loss=3.9055
+
+[Geom-only epoch 108/500] M = 9762
+[Geom-only epoch 108/500] mean_loss=3.9100
+
+[Geom-only epoch 109/500] M = 9762
+[Geom-only epoch 109/500] mean_loss=3.9112
+
+[Geom-only epoch 110/500] M = 9762
+[Geom-only epoch 110/500] mean_loss=3.9039
+
+[Geom-only epoch 111/500] M = 9762
+[Geom-only epoch 111/500] mean_loss=3.9124
+
+[Geom-only epoch 112/500] M = 9762
+[Geom-only epoch 112/500] mean_loss=3.9100
+
+[Geom-only epoch 113/500] M = 9762
+[Geom-only epoch 113/500] mean_loss=3.9127
+
+[Geom-only epoch 114/500] M = 9762
+[Geom-only epoch 114/500] mean_loss=3.9082
+
+[Geom-only epoch 115/500] M = 9762
+[Geom-only epoch 115/500] mean_loss=3.9069
+
+[Geom-only epoch 116/500] M = 9762
+[Geom-only epoch 116/500] mean_loss=3.9049
+
+[Geom-only epoch 117/500] M = 9762
+[Geom-only epoch 117/500] mean_loss=3.9070
+
+[Geom-only epoch 118/500] M = 9762
+[Geom-only epoch 118/500] mean_loss=3.9039
+
+[Geom-only epoch 119/500] M = 9762
+[Geom-only epoch 119/500] mean_loss=3.9092
+
+[Geom-only epoch 120/500] M = 9762
+[Geom-only epoch 120/500] mean_loss=3.9035
+
+[Geom-only epoch 121/500] M = 9762
+[Geom-only epoch 121/500] mean_loss=3.9012
+
+[Geom-only epoch 122/500] M = 9762
+[Geom-only epoch 122/500] mean_loss=3.9017
+
+[Geom-only epoch 123/500] M = 9762
+[Geom-only epoch 123/500] mean_loss=3.9003
+
+[Geom-only epoch 124/500] M = 9762
+[Geom-only epoch 124/500] mean_loss=3.8981
+
+[Geom-only epoch 125/500] M = 9762
+[Geom-only epoch 125/500] mean_loss=3.8960
+
+[Geom-only epoch 126/500] M = 9762
+[Geom-only epoch 126/500] mean_loss=3.8969
+
+[Geom-only epoch 127/500] M = 9762
+[Geom-only epoch 127/500] mean_loss=3.8974
+
+[Geom-only epoch 128/500] M = 9762
+[Geom-only epoch 128/500] mean_loss=3.8987
+
+[Geom-only epoch 129/500] M = 9762
+[Geom-only epoch 129/500] mean_loss=3.8956
+
+[Geom-only epoch 130/500] M = 9762
+[Geom-only epoch 130/500] mean_loss=3.9072
+
+[Geom-only epoch 131/500] M = 9762
+[Geom-only epoch 131/500] mean_loss=3.8954
+
+[Geom-only epoch 132/500] M = 9762
+[Geom-only epoch 132/500] mean_loss=3.8933
+
+[Geom-only epoch 133/500] M = 9762
+[Geom-only epoch 133/500] mean_loss=3.8985
+
+[Geom-only epoch 134/500] M = 9762
+[Geom-only epoch 134/500] mean_loss=3.8948
+
+[Geom-only epoch 135/500] M = 9762
+[Geom-only epoch 135/500] mean_loss=3.8901
+
+[Geom-only epoch 136/500] M = 9762
+[Geom-only epoch 136/500] mean_loss=3.9002
+
+[Geom-only epoch 137/500] M = 9762
+[Geom-only epoch 137/500] mean_loss=3.8938
+
+[Geom-only epoch 138/500] M = 9762
+[Geom-only epoch 138/500] mean_loss=3.8883
+
+[Geom-only epoch 139/500] M = 9762
+[Geom-only epoch 139/500] mean_loss=3.8840
+
+[Geom-only epoch 140/500] M = 9762
+[Geom-only epoch 140/500] mean_loss=3.8918
+
+[Geom-only epoch 141/500] M = 9762
+[Geom-only epoch 141/500] mean_loss=3.8875
+
+[Geom-only epoch 142/500] M = 9762
+[Geom-only epoch 142/500] mean_loss=3.8916
+
+[Geom-only epoch 143/500] M = 9762
+[Geom-only epoch 143/500] mean_loss=3.8924
+
+[Geom-only epoch 144/500] M = 9762
+[Geom-only epoch 144/500] mean_loss=3.8875
+
+[Geom-only epoch 145/500] M = 9762
+[Geom-only epoch 145/500] mean_loss=3.8897
+
+[Geom-only epoch 146/500] M = 9762
+[Geom-only epoch 146/500] mean_loss=3.8978
+
+[Geom-only epoch 147/500] M = 9762
+[Geom-only epoch 147/500] mean_loss=3.8916
+
+[Geom-only epoch 148/500] M = 9762
+[Geom-only epoch 148/500] mean_loss=3.8879
+
+[Geom-only epoch 149/500] M = 9762
+[Geom-only epoch 149/500] mean_loss=3.8870
+
+[Geom-only epoch 150/500] M = 9762
+[Geom-only epoch 150/500] mean_loss=3.8940
+
+[Geom-only epoch 151/500] M = 9762
+[Geom-only epoch 151/500] mean_loss=3.8864
+
+[Geom-only epoch 152/500] M = 9762
+[Geom-only epoch 152/500] mean_loss=3.8850
+
+[Geom-only epoch 153/500] M = 9762
+[Geom-only epoch 153/500] mean_loss=3.8873
+
+[Geom-only epoch 154/500] M = 9762
+[Geom-only epoch 154/500] mean_loss=3.8916
+
+[Geom-only epoch 155/500] M = 9762
+[Geom-only epoch 155/500] mean_loss=3.8849
+
+[Geom-only epoch 156/500] M = 9762
+[Geom-only epoch 156/500] mean_loss=3.8828
+
+[Geom-only epoch 157/500] M = 9762
+[Geom-only epoch 157/500] mean_loss=3.8826
+
+[Geom-only epoch 158/500] M = 9762
+[Geom-only epoch 158/500] mean_loss=3.8812
+
+[Geom-only epoch 159/500] M = 9762
+[Geom-only epoch 159/500] mean_loss=3.8815
+
+[Geom-only epoch 160/500] M = 9762
+[Geom-only epoch 160/500] mean_loss=3.8798
+
+[Geom-only epoch 161/500] M = 9762
+[Geom-only epoch 161/500] mean_loss=3.8840
+
+[Geom-only epoch 162/500] M = 9762
+[Geom-only epoch 162/500] mean_loss=3.8831
+
+[Geom-only epoch 163/500] M = 9762
+[Geom-only epoch 163/500] mean_loss=3.8827
+
+[Geom-only epoch 164/500] M = 9762
+[Geom-only epoch 164/500] mean_loss=3.8847
+
+[Geom-only epoch 165/500] M = 9762
+[Geom-only epoch 165/500] mean_loss=3.8816
+
+[Geom-only epoch 166/500] M = 9762
+[Geom-only epoch 166/500] mean_loss=3.8794
+
+[Geom-only epoch 167/500] M = 9762
+[Geom-only epoch 167/500] mean_loss=3.8791
+
+[Geom-only epoch 168/500] M = 9762
+[Geom-only epoch 168/500] mean_loss=3.8783
+
+[Geom-only epoch 169/500] M = 9762
+[Geom-only epoch 169/500] mean_loss=3.8774
+
+[Geom-only epoch 170/500] M = 9762
+[Geom-only epoch 170/500] mean_loss=3.8790
+
+[Geom-only epoch 171/500] M = 9762
+[Geom-only epoch 171/500] mean_loss=3.8809
+
+[Geom-only epoch 172/500] M = 9762
+[Geom-only epoch 172/500] mean_loss=3.8817
+
+[Geom-only epoch 173/500] M = 9762
+[Geom-only epoch 173/500] mean_loss=3.8816
+
+[Geom-only epoch 174/500] M = 9762
+[Geom-only epoch 174/500] mean_loss=3.8779
+
+[Geom-only epoch 175/500] M = 9762
+[Geom-only epoch 175/500] mean_loss=3.8721
+
+[Geom-only epoch 176/500] M = 9762
+[Geom-only epoch 176/500] mean_loss=3.8757
+
+[Geom-only epoch 177/500] M = 9762
+[Geom-only epoch 177/500] mean_loss=3.8725
+
+[Geom-only epoch 178/500] M = 9762
+[Geom-only epoch 178/500] mean_loss=3.8758
+
+[Geom-only epoch 179/500] M = 9762
+[Geom-only epoch 179/500] mean_loss=3.8765
+
+[Geom-only epoch 180/500] M = 9762
+[Geom-only epoch 180/500] mean_loss=3.8795
+
+[Geom-only epoch 181/500] M = 9762
+[Geom-only epoch 181/500] mean_loss=3.8781
+
+[Geom-only epoch 182/500] M = 9762
+[Geom-only epoch 182/500] mean_loss=3.8759
+
+[Geom-only epoch 183/500] M = 9762
+[Geom-only epoch 183/500] mean_loss=3.8770
+
+[Geom-only epoch 184/500] M = 9762
+[Geom-only epoch 184/500] mean_loss=3.8701
+
+[Geom-only epoch 185/500] M = 9762
+[Geom-only epoch 185/500] mean_loss=3.8782
+
+[Geom-only epoch 186/500] M = 9762
+[Geom-only epoch 186/500] mean_loss=3.8759
+
+[Geom-only epoch 187/500] M = 9762
+[Geom-only epoch 187/500] mean_loss=3.8758
+
+[Geom-only epoch 188/500] M = 9762
+[Geom-only epoch 188/500] mean_loss=3.8724
+
+[Geom-only epoch 189/500] M = 9762
+[Geom-only epoch 189/500] mean_loss=3.8741
+
+[Geom-only epoch 190/500] M = 9762
+[Geom-only epoch 190/500] mean_loss=3.8745
+
+[Geom-only epoch 191/500] M = 9762
+[Geom-only epoch 191/500] mean_loss=3.8754
+
+[Geom-only epoch 192/500] M = 9762
+[Geom-only epoch 192/500] mean_loss=3.8709
+
+[Geom-only epoch 193/500] M = 9762
+[Geom-only epoch 193/500] mean_loss=3.8725
+
+[Geom-only epoch 194/500] M = 9762
+[Geom-only epoch 194/500] mean_loss=3.8728
+
+[Geom-only epoch 195/500] M = 9762
+[Geom-only epoch 195/500] mean_loss=3.8743
+
+[Geom-only epoch 196/500] M = 9762
+[Geom-only epoch 196/500] mean_loss=3.8743
+
+[Geom-only epoch 197/500] M = 9762
+[Geom-only epoch 197/500] mean_loss=3.8701
+
+[Geom-only epoch 198/500] M = 9762
+[Geom-only epoch 198/500] mean_loss=3.8677
+
+[Geom-only epoch 199/500] M = 9762
+[Geom-only epoch 199/500] mean_loss=3.8696
+
+[Geom-only epoch 200/500] M = 9762
+[Geom-only epoch 200/500] mean_loss=3.8712
+
+[Geom-only epoch 201/500] M = 9762
+[Geom-only epoch 201/500] mean_loss=3.8719
+
+[Geom-only epoch 202/500] M = 9762
+[Geom-only epoch 202/500] mean_loss=3.8651
+
+[Geom-only epoch 203/500] M = 9762
+[Geom-only epoch 203/500] mean_loss=3.8714
+
+[Geom-only epoch 204/500] M = 9762
+[Geom-only epoch 204/500] mean_loss=3.8715
+
+[Geom-only epoch 205/500] M = 9762
+[Geom-only epoch 205/500] mean_loss=3.8733
+
+[Geom-only epoch 206/500] M = 9762
+[Geom-only epoch 206/500] mean_loss=3.8657
+
+[Geom-only epoch 207/500] M = 9762
+[Geom-only epoch 207/500] mean_loss=3.8611
+
+[Geom-only epoch 208/500] M = 9762
+[Geom-only epoch 208/500] mean_loss=3.8636
+
+[Geom-only epoch 209/500] M = 9762
+[Geom-only epoch 209/500] mean_loss=3.8670
+
+[Geom-only epoch 210/500] M = 9762
+[Geom-only epoch 210/500] mean_loss=3.8716
+
+[Geom-only epoch 211/500] M = 9762
+[Geom-only epoch 211/500] mean_loss=3.8698
+
+[Geom-only epoch 212/500] M = 9762
+[Geom-only epoch 212/500] mean_loss=3.8656
+
+[Geom-only epoch 213/500] M = 9762
+[Geom-only epoch 213/500] mean_loss=3.8677
+
+[Geom-only epoch 214/500] M = 9762
+[Geom-only epoch 214/500] mean_loss=3.8667
+
+[Geom-only epoch 215/500] M = 9762
+[Geom-only epoch 215/500] mean_loss=3.8605
+
+[Geom-only epoch 216/500] M = 9762
+[Geom-only epoch 216/500] mean_loss=3.8657
+
+[Geom-only epoch 217/500] M = 9762
+[Geom-only epoch 217/500] mean_loss=3.8648
+
+[Geom-only epoch 218/500] M = 9762
+[Geom-only epoch 218/500] mean_loss=3.8665
+
+[Geom-only epoch 219/500] M = 9762
+[Geom-only epoch 219/500] mean_loss=3.8690
+
+[Geom-only epoch 220/500] M = 9762
+[Geom-only epoch 220/500] mean_loss=3.8610
+
+[Geom-only epoch 221/500] M = 9762
+[Geom-only epoch 221/500] mean_loss=3.8620
+
+[Geom-only epoch 222/500] M = 9762
+[Geom-only epoch 222/500] mean_loss=3.8634
+
+[Geom-only epoch 223/500] M = 9762
+[Geom-only epoch 223/500] mean_loss=3.8598
+
+[Geom-only epoch 224/500] M = 9762
+[Geom-only epoch 224/500] mean_loss=3.8594
+
+[Geom-only epoch 225/500] M = 9762
+[Geom-only epoch 225/500] mean_loss=3.8633
+
+[Geom-only epoch 226/500] M = 9762
+[Geom-only epoch 226/500] mean_loss=3.8647
+
+[Geom-only epoch 227/500] M = 9762
+[Geom-only epoch 227/500] mean_loss=3.8657
+
+[Geom-only epoch 228/500] M = 9762
+[Geom-only epoch 228/500] mean_loss=3.8623
+
+[Geom-only epoch 229/500] M = 9762
+[Geom-only epoch 229/500] mean_loss=3.8624
+
+[Geom-only epoch 230/500] M = 9762
+[Geom-only epoch 230/500] mean_loss=3.8580
+
+[Geom-only epoch 231/500] M = 9762
+[Geom-only epoch 231/500] mean_loss=3.8582
+
+[Geom-only epoch 232/500] M = 9762
+[Geom-only epoch 232/500] mean_loss=3.8607
+
+[Geom-only epoch 233/500] M = 9762
+[Geom-only epoch 233/500] mean_loss=3.8594
+
+[Geom-only epoch 234/500] M = 9762
+[Geom-only epoch 234/500] mean_loss=3.8585
+
+[Geom-only epoch 235/500] M = 9762
+[Geom-only epoch 235/500] mean_loss=3.8603
+
+[Geom-only epoch 236/500] M = 9762
+[Geom-only epoch 236/500] mean_loss=3.8585
+
+[Geom-only epoch 237/500] M = 9762
+[Geom-only epoch 237/500] mean_loss=3.8599
+
+[Geom-only epoch 238/500] M = 9762
+[Geom-only epoch 238/500] mean_loss=3.8485
+
+[Geom-only epoch 239/500] M = 9762
+[Geom-only epoch 239/500] mean_loss=3.8552
+
+[Geom-only epoch 240/500] M = 9762
+[Geom-only epoch 240/500] mean_loss=3.8619
+
+[Geom-only epoch 241/500] M = 9762
+[Geom-only epoch 241/500] mean_loss=3.8551
+
+[Geom-only epoch 242/500] M = 9762
+[Geom-only epoch 242/500] mean_loss=3.8590
+
+[Geom-only epoch 243/500] M = 9762
+[Geom-only epoch 243/500] mean_loss=3.8539
+
+[Geom-only epoch 244/500] M = 9762
+[Geom-only epoch 244/500] mean_loss=3.8566
+
+[Geom-only epoch 245/500] M = 9762
+[Geom-only epoch 245/500] mean_loss=3.8604
+
+[Geom-only epoch 246/500] M = 9762
+[Geom-only epoch 246/500] mean_loss=3.8528
+
+[Geom-only epoch 247/500] M = 9762
+[Geom-only epoch 247/500] mean_loss=3.8523
+
+[Geom-only epoch 248/500] M = 9762
+[Geom-only epoch 248/500] mean_loss=3.8562
+
+[Geom-only epoch 249/500] M = 9762
+[Geom-only epoch 249/500] mean_loss=3.8507
+
+[Geom-only epoch 250/500] M = 9762
+[Geom-only epoch 250/500] mean_loss=3.8590
+
+[Geom-only epoch 251/500] M = 9762
+[Geom-only epoch 251/500] mean_loss=3.8496
+
+[Geom-only epoch 252/500] M = 9762
+[Geom-only epoch 252/500] mean_loss=3.8560
+
+[Geom-only epoch 253/500] M = 9762
+[Geom-only epoch 253/500] mean_loss=3.8612
+
+[Geom-only epoch 254/500] M = 9762
+[Geom-only epoch 254/500] mean_loss=3.8549
+
+[Geom-only epoch 255/500] M = 9762
+[Geom-only epoch 255/500] mean_loss=3.8541
+
+[Geom-only epoch 256/500] M = 9762
+[Geom-only epoch 256/500] mean_loss=3.8493
+
+[Geom-only epoch 257/500] M = 9762
+[Geom-only epoch 257/500] mean_loss=3.8458
+
+[Geom-only epoch 258/500] M = 9762
+[Geom-only epoch 258/500] mean_loss=3.8578
+
+[Geom-only epoch 259/500] M = 9762
+[Geom-only epoch 259/500] mean_loss=3.8452
+
+[Geom-only epoch 260/500] M = 9762
+[Geom-only epoch 260/500] mean_loss=3.8492
+
+[Geom-only epoch 261/500] M = 9762
+[Geom-only epoch 261/500] mean_loss=3.8580
+
+[Geom-only epoch 262/500] M = 9762
+[Geom-only epoch 262/500] mean_loss=3.8513
+
+[Geom-only epoch 263/500] M = 9762
+[Geom-only epoch 263/500] mean_loss=3.8543
+
+[Geom-only epoch 264/500] M = 9762
+[Geom-only epoch 264/500] mean_loss=3.8510
+
+[Geom-only epoch 265/500] M = 9762
+[Geom-only epoch 265/500] mean_loss=3.8517
+
+[Geom-only epoch 266/500] M = 9762
+[Geom-only epoch 266/500] mean_loss=3.8445
+
+[Geom-only epoch 267/500] M = 9762
+[Geom-only epoch 267/500] mean_loss=3.8576
+
+[Geom-only epoch 268/500] M = 9762
+[Geom-only epoch 268/500] mean_loss=3.8579
+
+[Geom-only epoch 269/500] M = 9762
+[Geom-only epoch 269/500] mean_loss=3.8517
+
+[Geom-only epoch 270/500] M = 9762
+[Geom-only epoch 270/500] mean_loss=3.8440
+
+[Geom-only epoch 271/500] M = 9762
+[Geom-only epoch 271/500] mean_loss=3.8454
+
+[Geom-only epoch 272/500] M = 9762
+[Geom-only epoch 272/500] mean_loss=3.8509
+
+[Geom-only epoch 273/500] M = 9762
+[Geom-only epoch 273/500] mean_loss=3.8548
+
+[Geom-only epoch 274/500] M = 9762
+[Geom-only epoch 274/500] mean_loss=3.8509
+
+[Geom-only epoch 275/500] M = 9762
+[Geom-only epoch 275/500] mean_loss=3.8455
+
+[Geom-only epoch 276/500] M = 9762
+[Geom-only epoch 276/500] mean_loss=3.8537
+
+[Geom-only epoch 277/500] M = 9762
+[Geom-only epoch 277/500] mean_loss=3.8489
+
+[Geom-only epoch 278/500] M = 9762
+[Geom-only epoch 278/500] mean_loss=3.8537
+
+[Geom-only epoch 279/500] M = 9762
+[Geom-only epoch 279/500] mean_loss=3.8538
+
+[Geom-only epoch 280/500] M = 9762
+[Geom-only epoch 280/500] mean_loss=3.8467
+
+[Geom-only epoch 281/500] M = 9762
+[Geom-only epoch 281/500] mean_loss=3.8487
+
+[Geom-only epoch 282/500] M = 9762
+[Geom-only epoch 282/500] mean_loss=3.8483
+
+[Geom-only epoch 283/500] M = 9762
+[Geom-only epoch 283/500] mean_loss=3.8502
+
+[Geom-only epoch 284/500] M = 9762
+[Geom-only epoch 284/500] mean_loss=3.8419
+
+[Geom-only epoch 285/500] M = 9762
+[Geom-only epoch 285/500] mean_loss=3.8435
+
+[Geom-only epoch 286/500] M = 9762
+[Geom-only epoch 286/500] mean_loss=3.8438
+
+[Geom-only epoch 287/500] M = 9762
+[Geom-only epoch 287/500] mean_loss=3.8464
+
+[Geom-only epoch 288/500] M = 9762
+[Geom-only epoch 288/500] mean_loss=3.8487
+
+[Geom-only epoch 289/500] M = 9762
+[Geom-only epoch 289/500] mean_loss=3.8431
+
+[Geom-only epoch 290/500] M = 9762
+[Geom-only epoch 290/500] mean_loss=3.8410
+
+[Geom-only epoch 291/500] M = 9762
+[Geom-only epoch 291/500] mean_loss=3.8378
+
+[Geom-only epoch 292/500] M = 9762
+[Geom-only epoch 292/500] mean_loss=3.8512
+
+[Geom-only epoch 293/500] M = 9762
+[Geom-only epoch 293/500] mean_loss=3.8459
+
+[Geom-only epoch 294/500] M = 9762
+[Geom-only epoch 294/500] mean_loss=3.8460
+
+[Geom-only epoch 295/500] M = 9762
+[Geom-only epoch 295/500] mean_loss=3.8463
+
+[Geom-only epoch 296/500] M = 9762
+[Geom-only epoch 296/500] mean_loss=3.8491
+
+[Geom-only epoch 297/500] M = 9762
+[Geom-only epoch 297/500] mean_loss=3.8428
+
+[Geom-only epoch 298/500] M = 9762
+[Geom-only epoch 298/500] mean_loss=3.8578
+
+[Geom-only epoch 299/500] M = 9762
+[Geom-only epoch 299/500] mean_loss=3.8383
+
+[Geom-only epoch 300/500] M = 9762
+[Geom-only epoch 300/500] mean_loss=3.8375
+
+[Geom-only epoch 301/500] M = 9762
+[Geom-only epoch 301/500] mean_loss=3.8397
+
+[Geom-only epoch 302/500] M = 9762
+[Geom-only epoch 302/500] mean_loss=3.8401
+
+[Geom-only epoch 303/500] M = 9762
+[Geom-only epoch 303/500] mean_loss=3.8377
+
+[Geom-only epoch 304/500] M = 9762
+[Geom-only epoch 304/500] mean_loss=3.8456
+
+[Geom-only epoch 305/500] M = 9762
+[Geom-only epoch 305/500] mean_loss=3.8415
+
+[Geom-only epoch 306/500] M = 9762
+[Geom-only epoch 306/500] mean_loss=3.8375
+
+[Geom-only epoch 307/500] M = 9762
+[Geom-only epoch 307/500] mean_loss=3.8394
+
+[Geom-only epoch 308/500] M = 9762
+[Geom-only epoch 308/500] mean_loss=3.8351
+
+[Geom-only epoch 309/500] M = 9762
+[Geom-only epoch 309/500] mean_loss=3.8364
+
+[Geom-only epoch 310/500] M = 9762
+[Geom-only epoch 310/500] mean_loss=3.8385
+
+[Geom-only epoch 311/500] M = 9762
+[Geom-only epoch 311/500] mean_loss=3.8394
+
+[Geom-only epoch 312/500] M = 9762
+[Geom-only epoch 312/500] mean_loss=3.8345
+
+[Geom-only epoch 313/500] M = 9762
+[Geom-only epoch 313/500] mean_loss=3.8409
+
+[Geom-only epoch 314/500] M = 9762
+[Geom-only epoch 314/500] mean_loss=3.8329
+
+[Geom-only epoch 315/500] M = 9762
+[Geom-only epoch 315/500] mean_loss=3.8392
+
+[Geom-only epoch 316/500] M = 9762
+[Geom-only epoch 316/500] mean_loss=3.8333
+
+[Geom-only epoch 317/500] M = 9762
+[Geom-only epoch 317/500] mean_loss=3.8325
+
+[Geom-only epoch 318/500] M = 9762
+[Geom-only epoch 318/500] mean_loss=3.8350
+
+[Geom-only epoch 319/500] M = 9762
+[Geom-only epoch 319/500] mean_loss=3.8386
+
+[Geom-only epoch 320/500] M = 9762
+[Geom-only epoch 320/500] mean_loss=3.8289
+
+[Geom-only epoch 321/500] M = 9762
+[Geom-only epoch 321/500] mean_loss=3.8431
+
+[Geom-only epoch 322/500] M = 9762
+[Geom-only epoch 322/500] mean_loss=3.8322
+
+[Geom-only epoch 323/500] M = 9762
+[Geom-only epoch 323/500] mean_loss=3.8329
+
+[Geom-only epoch 324/500] M = 9762
+[Geom-only epoch 324/500] mean_loss=3.8317
+
+[Geom-only epoch 325/500] M = 9762
+[Geom-only epoch 325/500] mean_loss=3.8298
+
+[Geom-only epoch 326/500] M = 9762
+[Geom-only epoch 326/500] mean_loss=3.8421
+
+[Geom-only epoch 327/500] M = 9762
+[Geom-only epoch 327/500] mean_loss=3.8350
+
+[Geom-only epoch 328/500] M = 9762
+[Geom-only epoch 328/500] mean_loss=3.8371
+
+[Geom-only epoch 329/500] M = 9762
+[Geom-only epoch 329/500] mean_loss=3.8323
+
+[Geom-only epoch 330/500] M = 9762
+[Geom-only epoch 330/500] mean_loss=3.8292
+
+[Geom-only epoch 331/500] M = 9762
+[Geom-only epoch 331/500] mean_loss=3.8439
+
+[Geom-only epoch 332/500] M = 9762
+[Geom-only epoch 332/500] mean_loss=3.8324
+
+[Geom-only epoch 333/500] M = 9762
+[Geom-only epoch 333/500] mean_loss=3.8300
+
+[Geom-only epoch 334/500] M = 9762
+[Geom-only epoch 334/500] mean_loss=3.8344
+
+[Geom-only epoch 335/500] M = 9762
+[Geom-only epoch 335/500] mean_loss=3.8304
+
+[Geom-only epoch 336/500] M = 9762
+[Geom-only epoch 336/500] mean_loss=3.8334
+
+[Geom-only epoch 337/500] M = 9762
+[Geom-only epoch 337/500] mean_loss=3.8342
+
+[Geom-only epoch 338/500] M = 9762
+[Geom-only epoch 338/500] mean_loss=3.8394
+
+[Geom-only epoch 339/500] M = 9762
+[Geom-only epoch 339/500] mean_loss=3.8453
+
+[Geom-only epoch 340/500] M = 9762
+[Geom-only epoch 340/500] mean_loss=3.8326
+
+[Geom-only epoch 341/500] M = 9762
+[Geom-only epoch 341/500] mean_loss=3.8302
+
+[Geom-only epoch 342/500] M = 9762
+[Geom-only epoch 342/500] mean_loss=3.8362
+
+[Geom-only epoch 343/500] M = 9762
+[Geom-only epoch 343/500] mean_loss=3.8356
+
+[Geom-only epoch 344/500] M = 9762
+[Geom-only epoch 344/500] mean_loss=3.8378
+
+[Geom-only epoch 345/500] M = 9762
+[Geom-only epoch 345/500] mean_loss=3.8345
+
+[Geom-only epoch 346/500] M = 9762
+[Geom-only epoch 346/500] mean_loss=3.8317
+
+[Geom-only epoch 347/500] M = 9762
+[Geom-only epoch 347/500] mean_loss=3.8326
+
+[Geom-only epoch 348/500] M = 9762
+[Geom-only epoch 348/500] mean_loss=3.8301
+
+[Geom-only epoch 349/500] M = 9762
+[Geom-only epoch 349/500] mean_loss=3.8291
+
+[Geom-only epoch 350/500] M = 9762
+[Geom-only epoch 350/500] mean_loss=3.8346
+
+[Geom-only epoch 351/500] M = 9762
+[Geom-only epoch 351/500] mean_loss=3.8316
+
+[Geom-only epoch 352/500] M = 9762
+[Geom-only epoch 352/500] mean_loss=3.8355
+
+[Geom-only epoch 353/500] M = 9762
+[Geom-only epoch 353/500] mean_loss=3.8290
+
+[Geom-only epoch 354/500] M = 9762
+[Geom-only epoch 354/500] mean_loss=3.8278
+
+[Geom-only epoch 355/500] M = 9762
+[Geom-only epoch 355/500] mean_loss=3.8347
+
+[Geom-only epoch 356/500] M = 9762
+[Geom-only epoch 356/500] mean_loss=3.8278
+
+[Geom-only epoch 357/500] M = 9762
+[Geom-only epoch 357/500] mean_loss=3.8320
+
+[Geom-only epoch 358/500] M = 9762
+[Geom-only epoch 358/500] mean_loss=3.8307
+
+[Geom-only epoch 359/500] M = 9762
+[Geom-only epoch 359/500] mean_loss=3.8237
+
+[Geom-only epoch 360/500] M = 9762
+[Geom-only epoch 360/500] mean_loss=3.8293
+
+[Geom-only epoch 361/500] M = 9762
+[Geom-only epoch 361/500] mean_loss=3.8241
+
+[Geom-only epoch 362/500] M = 9762
+[Geom-only epoch 362/500] mean_loss=3.8326
+
+[Geom-only epoch 363/500] M = 9762
+[Geom-only epoch 363/500] mean_loss=3.8244
+
+[Geom-only epoch 364/500] M = 9762
+[Geom-only epoch 364/500] mean_loss=3.8252
+
+[Geom-only epoch 365/500] M = 9762
+[Geom-only epoch 365/500] mean_loss=3.8321
+
+[Geom-only epoch 366/500] M = 9762
+[Geom-only epoch 366/500] mean_loss=3.8291
+
+[Geom-only epoch 367/500] M = 9762
+[Geom-only epoch 367/500] mean_loss=3.8212
+
+[Geom-only epoch 368/500] M = 9762
+[Geom-only epoch 368/500] mean_loss=3.8266
+
+[Geom-only epoch 369/500] M = 9762
+[Geom-only epoch 369/500] mean_loss=3.8246
+
+[Geom-only epoch 370/500] M = 9762
+[Geom-only epoch 370/500] mean_loss=3.8250
+
+[Geom-only epoch 371/500] M = 9762
+[Geom-only epoch 371/500] mean_loss=3.8240
+
+[Geom-only epoch 372/500] M = 9762
+[Geom-only epoch 372/500] mean_loss=3.8317
+
+[Geom-only epoch 373/500] M = 9762
+[Geom-only epoch 373/500] mean_loss=3.8285
+
+[Geom-only epoch 374/500] M = 9762
+[Geom-only epoch 374/500] mean_loss=3.8275
+
+[Geom-only epoch 375/500] M = 9762
+[Geom-only epoch 375/500] mean_loss=3.8258
+
+[Geom-only epoch 376/500] M = 9762
+[Geom-only epoch 376/500] mean_loss=3.8307
+
+[Geom-only epoch 377/500] M = 9762
+[Geom-only epoch 377/500] mean_loss=3.8276
+
+[Geom-only epoch 378/500] M = 9762
+[Geom-only epoch 378/500] mean_loss=3.8298
+
+[Geom-only epoch 379/500] M = 9762
+[Geom-only epoch 379/500] mean_loss=3.8342
+
+[Geom-only epoch 380/500] M = 9762
+[Geom-only epoch 380/500] mean_loss=3.8222
+
+[Geom-only epoch 381/500] M = 9762
+[Geom-only epoch 381/500] mean_loss=3.8254
+
+[Geom-only epoch 382/500] M = 9762
+[Geom-only epoch 382/500] mean_loss=3.8255
+
+[Geom-only epoch 383/500] M = 9762
+[Geom-only epoch 383/500] mean_loss=3.8316
+
+[Geom-only epoch 384/500] M = 9762
+[Geom-only epoch 384/500] mean_loss=3.8242
+
+[Geom-only epoch 385/500] M = 9762
+[Geom-only epoch 385/500] mean_loss=3.8232
+
+[Geom-only epoch 386/500] M = 9762
+[Geom-only epoch 386/500] mean_loss=3.8232
+
+[Geom-only epoch 387/500] M = 9762
+[Geom-only epoch 387/500] mean_loss=3.8158
+
+[Geom-only epoch 388/500] M = 9762
+[Geom-only epoch 388/500] mean_loss=3.8311
+
+[Geom-only epoch 389/500] M = 9762
+[Geom-only epoch 389/500] mean_loss=3.8275
+
+[Geom-only epoch 390/500] M = 9762
+[Geom-only epoch 390/500] mean_loss=3.8249
+
+[Geom-only epoch 391/500] M = 9762
+[Geom-only epoch 391/500] mean_loss=3.8271
+
+[Geom-only epoch 392/500] M = 9762
+[Geom-only epoch 392/500] mean_loss=3.8237
+
+[Geom-only epoch 393/500] M = 9762
+[Geom-only epoch 393/500] mean_loss=3.8172
+
+[Geom-only epoch 394/500] M = 9762
+[Geom-only epoch 394/500] mean_loss=3.8175
+
+[Geom-only epoch 395/500] M = 9762
+[Geom-only epoch 395/500] mean_loss=3.8239
+
+[Geom-only epoch 396/500] M = 9762
+[Geom-only epoch 396/500] mean_loss=3.8250
+
+[Geom-only epoch 397/500] M = 9762
+[Geom-only epoch 397/500] mean_loss=3.8173
+
+[Geom-only epoch 398/500] M = 9762
+[Geom-only epoch 398/500] mean_loss=3.8202
+
+[Geom-only epoch 399/500] M = 9762
+[Geom-only epoch 399/500] mean_loss=3.8271
+
+[Geom-only epoch 400/500] M = 9762
+[Geom-only epoch 400/500] mean_loss=3.8202
+
+[Geom-only epoch 401/500] M = 9762
+[Geom-only epoch 401/500] mean_loss=3.8162
+
+[Geom-only epoch 402/500] M = 9762
+[Geom-only epoch 402/500] mean_loss=3.8196
+
+[Geom-only epoch 403/500] M = 9762
+[Geom-only epoch 403/500] mean_loss=3.8177
+
+[Geom-only epoch 404/500] M = 9762
+[Geom-only epoch 404/500] mean_loss=3.8182
+
+[Geom-only epoch 405/500] M = 9762
+[Geom-only epoch 405/500] mean_loss=3.8164
+
+[Geom-only epoch 406/500] M = 9762
+[Geom-only epoch 406/500] mean_loss=3.8209
+
+[Geom-only epoch 407/500] M = 9762
+[Geom-only epoch 407/500] mean_loss=3.8158
+
+[Geom-only epoch 408/500] M = 9762
+[Geom-only epoch 408/500] mean_loss=3.8208
+
+[Geom-only epoch 409/500] M = 9762
+[Geom-only epoch 409/500] mean_loss=3.8196
+
+[Geom-only epoch 410/500] M = 9762
+[Geom-only epoch 410/500] mean_loss=3.8238
+
+[Geom-only epoch 411/500] M = 9762
+[Geom-only epoch 411/500] mean_loss=3.8243
+
+[Geom-only epoch 412/500] M = 9762
+[Geom-only epoch 412/500] mean_loss=3.8169
+
+[Geom-only epoch 413/500] M = 9762
+[Geom-only epoch 413/500] mean_loss=3.8145
+
+[Geom-only epoch 414/500] M = 9762
+[Geom-only epoch 414/500] mean_loss=3.8141
+
+[Geom-only epoch 415/500] M = 9762
+[Geom-only epoch 415/500] mean_loss=3.8190
+
+[Geom-only epoch 416/500] M = 9762
+[Geom-only epoch 416/500] mean_loss=3.8197
+
+[Geom-only epoch 417/500] M = 9762
+[Geom-only epoch 417/500] mean_loss=3.8222
+
+[Geom-only epoch 418/500] M = 9762
+[Geom-only epoch 418/500] mean_loss=3.8195
+
+[Geom-only epoch 419/500] M = 9762
+[Geom-only epoch 419/500] mean_loss=3.8216
+
+[Geom-only epoch 420/500] M = 9762
+[Geom-only epoch 420/500] mean_loss=3.8172
+
+[Geom-only epoch 421/500] M = 9762
+[Geom-only epoch 421/500] mean_loss=3.8237
+
+[Geom-only epoch 422/500] M = 9762
+[Geom-only epoch 422/500] mean_loss=3.8275
+
+[Geom-only epoch 423/500] M = 9762
+[Geom-only epoch 423/500] mean_loss=3.8195
+
+[Geom-only epoch 424/500] M = 9762
+[Geom-only epoch 424/500] mean_loss=3.8248
+
+[Geom-only epoch 425/500] M = 9762
+[Geom-only epoch 425/500] mean_loss=3.8201
+
+[Geom-only epoch 426/500] M = 9762
+[Geom-only epoch 426/500] mean_loss=3.8203
+
+[Geom-only epoch 427/500] M = 9762
+[Geom-only epoch 427/500] mean_loss=3.8104
+
+[Geom-only epoch 428/500] M = 9762
+[Geom-only epoch 428/500] mean_loss=3.8185
+
+[Geom-only epoch 429/500] M = 9762
+[Geom-only epoch 429/500] mean_loss=3.8210
+
+[Geom-only epoch 430/500] M = 9762
+[Geom-only epoch 430/500] mean_loss=3.8239
+
+[Geom-only epoch 431/500] M = 9762
+[Geom-only epoch 431/500] mean_loss=3.8134
+
+[Geom-only epoch 432/500] M = 9762
+[Geom-only epoch 432/500] mean_loss=3.8132
+
+[Geom-only epoch 433/500] M = 9762
+[Geom-only epoch 433/500] mean_loss=3.8164
+
+[Geom-only epoch 434/500] M = 9762
+[Geom-only epoch 434/500] mean_loss=3.8145
+
+[Geom-only epoch 435/500] M = 9762
+[Geom-only epoch 435/500] mean_loss=3.8116
+
+[Geom-only epoch 436/500] M = 9762
+[Geom-only epoch 436/500] mean_loss=3.8145
+
+[Geom-only epoch 437/500] M = 9762
+[Geom-only epoch 437/500] mean_loss=3.8213
+
+[Geom-only epoch 438/500] M = 9762
+[Geom-only epoch 438/500] mean_loss=3.8104
+
+[Geom-only epoch 439/500] M = 9762
+[Geom-only epoch 439/500] mean_loss=3.8118
+
+[Geom-only epoch 440/500] M = 9762
+[Geom-only epoch 440/500] mean_loss=3.8182
+
+[Geom-only epoch 441/500] M = 9762
+[Geom-only epoch 441/500] mean_loss=3.8199
+
+[Geom-only epoch 442/500] M = 9762
+[Geom-only epoch 442/500] mean_loss=3.8068
+
+[Geom-only epoch 443/500] M = 9762
+[Geom-only epoch 443/500] mean_loss=3.8103
+
+[Geom-only epoch 444/500] M = 9762
+[Geom-only epoch 444/500] mean_loss=3.8153
+
+[Geom-only epoch 445/500] M = 9762
+[Geom-only epoch 445/500] mean_loss=3.8141
+
+[Geom-only epoch 446/500] M = 9762
+[Geom-only epoch 446/500] mean_loss=3.8141
+
+[Geom-only epoch 447/500] M = 9762
+[Geom-only epoch 447/500] mean_loss=3.8082
+
+[Geom-only epoch 448/500] M = 9762
+[Geom-only epoch 448/500] mean_loss=3.8148
+
+[Geom-only epoch 449/500] M = 9762
+[Geom-only epoch 449/500] mean_loss=3.8155
+
+[Geom-only epoch 450/500] M = 9762
+[Geom-only epoch 450/500] mean_loss=3.8068
+
+[Geom-only epoch 451/500] M = 9762
+[Geom-only epoch 451/500] mean_loss=3.8119
+
+[Geom-only epoch 452/500] M = 9762
+[Geom-only epoch 452/500] mean_loss=3.8093
+
+[Geom-only epoch 453/500] M = 9762
+[Geom-only epoch 453/500] mean_loss=3.8096
+
+[Geom-only epoch 454/500] M = 9762
+[Geom-only epoch 454/500] mean_loss=3.8165
+
+[Geom-only epoch 455/500] M = 9762
+[Geom-only epoch 455/500] mean_loss=3.8133
+
+[Geom-only epoch 456/500] M = 9762
+[Geom-only epoch 456/500] mean_loss=3.8153
+
+[Geom-only epoch 457/500] M = 9762
+[Geom-only epoch 457/500] mean_loss=3.8044
+
+[Geom-only epoch 458/500] M = 9762
+[Geom-only epoch 458/500] mean_loss=3.8168
+
+[Geom-only epoch 459/500] M = 9762
+[Geom-only epoch 459/500] mean_loss=3.8156
+
+[Geom-only epoch 460/500] M = 9762
+[Geom-only epoch 460/500] mean_loss=3.8143
+
+[Geom-only epoch 461/500] M = 9762
+[Geom-only epoch 461/500] mean_loss=3.8051
+
+[Geom-only epoch 462/500] M = 9762
+[Geom-only epoch 462/500] mean_loss=3.8105
+
+[Geom-only epoch 463/500] M = 9762
+[Geom-only epoch 463/500] mean_loss=3.8133
+
+[Geom-only epoch 464/500] M = 9762
+[Geom-only epoch 464/500] mean_loss=3.8076
+
+[Geom-only epoch 465/500] M = 9762
+[Geom-only epoch 465/500] mean_loss=3.8083
+
+[Geom-only epoch 466/500] M = 9762
+[Geom-only epoch 466/500] mean_loss=3.8162
+
+[Geom-only epoch 467/500] M = 9762
+[Geom-only epoch 467/500] mean_loss=3.8071
+
+[Geom-only epoch 468/500] M = 9762
+[Geom-only epoch 468/500] mean_loss=3.8101
+
+[Geom-only epoch 469/500] M = 9762
+[Geom-only epoch 469/500] mean_loss=3.8115
+
+[Geom-only epoch 470/500] M = 9762
+[Geom-only epoch 470/500] mean_loss=3.8059
+
+[Geom-only epoch 471/500] M = 9762
+[Geom-only epoch 471/500] mean_loss=3.8080
+
+[Geom-only epoch 472/500] M = 9762
+[Geom-only epoch 472/500] mean_loss=3.8054
+
+[Geom-only epoch 473/500] M = 9762
+[Geom-only epoch 473/500] mean_loss=3.7992
+
+[Geom-only epoch 474/500] M = 9762
+[Geom-only epoch 474/500] mean_loss=3.8152
+
+[Geom-only epoch 475/500] M = 9762
+[Geom-only epoch 475/500] mean_loss=3.8038
+
+[Geom-only epoch 476/500] M = 9762
+[Geom-only epoch 476/500] mean_loss=3.8160
+
+[Geom-only epoch 477/500] M = 9762
+[Geom-only epoch 477/500] mean_loss=3.8010
+
+[Geom-only epoch 478/500] M = 9762
+[Geom-only epoch 478/500] mean_loss=3.8060
+
+[Geom-only epoch 479/500] M = 9762
+[Geom-only epoch 479/500] mean_loss=3.8067
+
+[Geom-only epoch 480/500] M = 9762
+[Geom-only epoch 480/500] mean_loss=3.8076
+
+[Geom-only epoch 481/500] M = 9762
+[Geom-only epoch 481/500] mean_loss=3.8146
+
+[Geom-only epoch 482/500] M = 9762
+[Geom-only epoch 482/500] mean_loss=3.8077
+
+[Geom-only epoch 483/500] M = 9762
+[Geom-only epoch 483/500] mean_loss=3.8118
+
+[Geom-only epoch 484/500] M = 9762
+[Geom-only epoch 484/500] mean_loss=3.8062
+
+[Geom-only epoch 485/500] M = 9762
+[Geom-only epoch 485/500] mean_loss=3.8048
+
+[Geom-only epoch 486/500] M = 9762
+[Geom-only epoch 486/500] mean_loss=3.8085
+
+[Geom-only epoch 487/500] M = 9762
+[Geom-only epoch 487/500] mean_loss=3.8082
+
+[Geom-only epoch 488/500] M = 9762
+[Geom-only epoch 488/500] mean_loss=3.8046
+
+[Geom-only epoch 489/500] M = 9762
+[Geom-only epoch 489/500] mean_loss=3.8223
+
+[Geom-only epoch 490/500] M = 9762
+[Geom-only epoch 490/500] mean_loss=3.8055
+
+[Geom-only epoch 491/500] M = 9762
+[Geom-only epoch 491/500] mean_loss=3.8094
+
+[Geom-only epoch 492/500] M = 9762
+[Geom-only epoch 492/500] mean_loss=3.8013
+
+[Geom-only epoch 493/500] M = 9762
+[Geom-only epoch 493/500] mean_loss=3.8096
+
+[Geom-only epoch 494/500] M = 9762
+[Geom-only epoch 494/500] mean_loss=3.8130
+
+[Geom-only epoch 495/500] M = 9762
+[Geom-only epoch 495/500] mean_loss=3.8054
+
+[Geom-only epoch 496/500] M = 9762
+[Geom-only epoch 496/500] mean_loss=3.8081
+
+[Geom-only epoch 497/500] M = 9762
+[Geom-only epoch 497/500] mean_loss=3.8076
+
+[Geom-only epoch 498/500] M = 9762
+[Geom-only epoch 498/500] mean_loss=3.8051
+
+[Geom-only epoch 499/500] M = 9762
+[Geom-only epoch 499/500] mean_loss=3.8070
+
+[Geom-only epoch 500/500] M = 9762
+[Geom-only epoch 500/500] mean_loss=3.8152
+[Save] state_dict -> reaction_encoder_geomE_only.pth
+[Save] TorchScript -> reaction_encoder_geomE_only.pt
+
+=========== t-SNE 可视化 (coarse + PCA-1D) ===========
+[PCA-1D] 解释方差比 (PC1): 0.5507
+
+四套 reaction embedding 已保存：
+  - reaction_embeddings_before_training_128.npy
+  - reaction_embeddings_stage1_multilevel_128.npy
+  - reaction_embeddings_two_stage_multilevel_geomE_128.npy
+  - reaction_embeddings_geomE_only_128.npy
+对应 encoder：
+  - reaction_encoder_stage1_multilevel.pth / .pt
+  - reaction_encoder_two_stage_multilevel_geomE.pth / .pt
+  - reaction_encoder_geomE_only.pth / .pt
+以及 loss_plots/, loss_data/, tsne_plots/ 等辅助文件，可用于分析训练过程。
