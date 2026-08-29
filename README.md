@@ -1,2 +1,2 @@
-# TSCL
-Reaction similarity-guided two-stage contrastive learning framework
+# RSCLR
+Reaction similarity-guided two-stage contrastive learning of representations framework
